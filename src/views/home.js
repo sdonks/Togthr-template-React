@@ -171,17 +171,17 @@ const Home = (props) => {
               We make brands stand out through Video Content.
             </p>
           </div>
-          <button
+          <Link
+            to="/contact"
             id="contact"
             name="Let's talk"
-            type="button"
-            className="button home-button"
+            className="home-navlink button"
           >
             <span>
               <span>Let&apos;s talk!</span>
               <br></br>
             </span>
-          </button>
+          </Link>
         </div>
       </section>
       <section className="home-note">
@@ -442,10 +442,10 @@ new BlazeSlider(el, {
               />
             </p>
           </div>
-          <div className="home-button1">
-            <button className="button">
+          <div className="home-button">
+            <Link to="/work-examples" className="home-button1 button">
               <span>Our work</span>
-            </button>
+            </Link>
           </div>
         </div>
         <img
@@ -711,7 +711,7 @@ new BlazeSlider(el, {
               <br></br>
             </h2>
           </div>
-          <button className="home-button3 button">
+          <button className="home-button2 button">
             <span>
               <span>Get started today</span>
               <br></br>
@@ -1127,7 +1127,7 @@ new BlazeSlider(el, {
               <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
             </svg>
           </button>
-          <button className="button home-button4">
+          <button className="button home-button3">
             <span>
               <span>View all cases</span>
               <br></br>
@@ -1251,16 +1251,16 @@ new BlazeSlider(el, {
               <div className="home-column2">
                 <span className="home-header30">Company</span>
                 <div className="home-list">
-                  <Link to="/" className="home-navlink">
+                  <Link to="/" className="home-navlink01">
                     About
                   </Link>
-                  <Link to="/" className="home-navlink01">
+                  <Link to="/" className="home-navlink02">
                     Services
                   </Link>
-                  <Link to="/" className="home-navlink02">
+                  <Link to="/" className="home-navlink03">
                     How
                   </Link>
-                  <Link to="/" className="home-navlink03">
+                  <Link to="/" className="home-navlink04">
                     <span className="home-text099">Why</span>
                     <br></br>
                   </Link>
@@ -1269,25 +1269,25 @@ new BlazeSlider(el, {
               <div className="home-column3">
                 <span className="home-header31">Extern</span>
                 <div className="home-list1">
-                  <Link to="/" className="home-navlink04">
+                  <Link to="/" className="home-navlink05">
                     News
                   </Link>
-                  <Link to="/" className="home-navlink05">
+                  <Link to="/" className="home-navlink06">
                     Articles
                   </Link>
-                  <Link to="/" className="home-navlink06">
+                  <Link to="/" className="home-navlink07">
                     Blog
                   </Link>
-                  <Link to="/" className="home-navlink07">
+                  <Link to="/" className="home-navlink08">
                     Privacy
                   </Link>
-                  <Link to="/" className="home-navlink08">
+                  <Link to="/" className="home-navlink09">
                     Terms
                   </Link>
-                  <Link to="/" className="home-navlink09">
+                  <Link to="/" className="home-navlink10">
                     Legal
                   </Link>
-                  <Link to="/" className="home-navlink10">
+                  <Link to="/" className="home-navlink11">
                     Press
                   </Link>
                 </div>
@@ -1295,19 +1295,19 @@ new BlazeSlider(el, {
               <div className="home-column4">
                 <span className="home-header32">Social</span>
                 <div className="home-list2">
-                  <Link to="/" className="home-navlink11">
+                  <Link to="/" className="home-navlink12">
                     LinkedIn
                   </Link>
-                  <Link to="/" className="home-navlink12">
+                  <Link to="/" className="home-navlink13">
                     Twitter
                   </Link>
-                  <Link to="/" className="home-navlink13">
+                  <Link to="/" className="home-navlink14">
                     Instagram
                   </Link>
-                  <Link to="/" className="home-navlink14">
+                  <Link to="/" className="home-navlink15">
                     Facebook
                   </Link>
-                  <Link to="/" className="home-navlink15">
+                  <Link to="/" className="home-navlink16">
                     TikTok
                   </Link>
                 </div>
@@ -1318,13 +1318,17 @@ new BlazeSlider(el, {
             <span className="home-text101">
               © 2023 MOVIEW | Stefan Doncean - All rights reserved
             </span>
-            <button data-role="scroll-top" className="home-button5 button">
+            <a
+              href="#contact"
+              data-role="scroll-top"
+              className="home-link2 button"
+            >
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
                 className="home-image14"
               />
-            </button>
+            </a>
           </div>
         </div>
       </div>
