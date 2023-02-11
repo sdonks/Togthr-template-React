@@ -14,8 +14,23 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Togthr template</title>
-        <meta property="og:title" content="Togthr template" />
+        <title>Moview Productions | Stefan Doncean</title>
+        <meta
+          name="description"
+          content="Moview is the home to our Video Production company where we create stunning visual content to ensure brands stand out and get noticed."
+        />
+        <meta
+          property="og:title"
+          content="Moview Productions | Stefan Doncean"
+        />
+        <meta
+          property="og:description"
+          content="Moview is the home to our Video Production company where we create stunning visual content to ensure brands stand out and get noticed."
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c9633093-04cb-4556-8e46-92b7b60210b3/9bb2f2ab-731f-46a4-b829-5ff2c4bc55bc?org_if_sml=1"
+        />
       </Helmet>
       <section className="home-hero">
         <video
