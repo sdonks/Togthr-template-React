@@ -43,10 +43,11 @@ const Home = (props) => {
           id="top"
           className="home-video"
         ></video>
-        <header data-role="Header" className="home-header">
+        <header data-role="Header" id="header" className="home-header">
           <img
             alt="logo"
             src="https://i.imgur.com/h00gRM7.png"
+            id="top logo"
             className="home-image"
           />
           <div className="home-nav">
@@ -1319,7 +1320,11 @@ new BlazeSlider(el, {
             <span className="home-text101">
               © 2023 MOVIEW | Stefan Doncean - All rights reserved
             </span>
-            <a href="#top" data-role="scroll-top" className="home-link2 button">
+            <a
+              href="#header"
+              data-role="scroll-top"
+              className="home-link2 button"
+            >
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
