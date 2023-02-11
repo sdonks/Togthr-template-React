@@ -219,8 +219,8 @@ const Home = (props) => {
             <br className="home-text019"></br>
           </p>
           <img
-            src="https://i.imgur.com/Go7dtob.jpg"
             alt="image"
+            src="https://i.imgur.com/Go7dtob.jpg"
             className="home-image03"
           />
           <div className="home-slide-titles">
@@ -1229,13 +1229,7 @@ new BlazeSlider(el, {
                 className="home-image13"
               />
               <span className="home-text098">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
+                Available world-wide, at any time.
               </span>
             </div>
             <div className="home-links">
