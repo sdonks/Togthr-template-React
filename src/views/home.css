@@ -3778,7 +3778,9 @@
     line-height: 42px;
   }
   .home-image03 {
-    width: 417px;
+    width: 364px;
+    margin-right: 0px;
+    padding-right: 0px;
   }
   .home-slide-titles {
     display: none;
