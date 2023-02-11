@@ -2340,9 +2340,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.home-navlink01 {
+  display: contents;
+}
 .home-image13 {
   width: 120px;
   object-fit: cover;
+  text-decoration: none;
 }
 .home-text098 {
   color: rgb(124, 124, 128);
@@ -2371,16 +2375,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.home-navlink01 {
-  cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
-  line-height: 32px;
-  text-decoration: none;
-}
-.home-navlink01:hover {
-  opacity: .5;
 }
 .home-navlink02 {
   cursor: pointer;
@@ -2412,6 +2406,16 @@
 .home-navlink04:hover {
   opacity: .5;
 }
+.home-navlink05 {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.home-navlink05:hover {
+  opacity: .5;
+}
 .home-text099:hover {
   opacity: .5;
 }
@@ -2432,16 +2436,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.home-navlink05 {
-  cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
-  line-height: 32px;
-  text-decoration: none;
-}
-.home-navlink05:hover {
-  opacity: .5;
 }
 .home-navlink06 {
   cursor: pointer;
@@ -2503,6 +2497,16 @@
 .home-navlink11:hover {
   opacity: .5;
 }
+.home-navlink12 {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.home-navlink12:hover {
+  opacity: .5;
+}
 .home-column4 {
   gap: var(--dl-space-space-threeunits);
   color: white;
@@ -2520,16 +2524,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.home-navlink12 {
-  cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
-  line-height: 32px;
-  text-decoration: none;
-}
-.home-navlink12:hover {
-  opacity: .5;
 }
 .home-navlink13 {
   cursor: pointer;
@@ -2569,6 +2563,16 @@
   text-decoration: none;
 }
 .home-navlink16:hover {
+  opacity: .5;
+}
+.home-navlink17 {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  line-height: 32px;
+  text-decoration: none;
+}
+.home-navlink17:hover {
   opacity: .5;
 }
 .home-bottom {
