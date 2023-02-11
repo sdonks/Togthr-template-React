@@ -18,7 +18,7 @@ const Home = (props) => {
       </Helmet>
       <section className="home-hero">
         <video
-          src="VIDEO SOURCE"
+          src="https://www.youtube.com/embed/3CjSddZqyaQ"
           loop
           muted
           preload="auto"
@@ -29,7 +29,7 @@ const Home = (props) => {
         <header data-thq="thq-navbar" className="home-navbar">
           <img
             alt="image"
-            src="/playground_assets/logo.svg"
+            src="https://i.imgur.com/h00gRM7.png"
             className="home-branding"
           />
           <div data-thq="thq-burger-menu" className="home-burger-menu">
@@ -105,13 +105,17 @@ const Home = (props) => {
               </h1>
             </div>
             <p className="home-caption">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt.
+              We make brands stand out through Video Content.
             </p>
           </div>
-          <button className="button home-button">
+          <button
+            id="contact"
+            name="Let's talk"
+            type="button"
+            className="button home-button"
+          >
             <span>
-              <span>Get started today</span>
+              <span>Let&apos;s talk!</span>
               <br></br>
             </span>
           </button>
@@ -119,41 +123,31 @@ const Home = (props) => {
       </section>
       <section className="home-note">
         <h2 className="home-caption01">
-          The most comprehensive lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna.
+          <span className="home-text11">
+            Get noticed with &quot;Scroll Stopping&quot; Video Content!
+          </span>
+          <br></br>
+          <br className="home-text13"></br>
+          <span className="home-text14">
+            Our diverse team has created engaging content for brands all over
+            the world
+          </span>
         </h2>
       </section>
-      <section className="home-statistics">
-        <div className="home-content">
-          <div className="home-stat">
-            <h3 className="home-header01">$1.69M</h3>
-            <span className="home-caption02">
-              Consectetur adipiscing
+      <section className="home-slider">
+        <div className="home-header01">
+          <h2 className="home-heading01">
+            <span>
+              From nothing to
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-          </div>
-          <div className="home-stat1">
-            <h3 className="home-header02">Multiverse</h3>
-            <span className="home-caption03">Unde omnis iste</span>
-          </div>
-          <div className="home-stat2">
-            <h3 className="home-header03">500K</h3>
-            <span className="home-caption04">Accusantium doloremque</span>
-          </div>
-        </div>
-      </section>
-      <section className="home-slider">
-        <div className="home-header04">
-          <h2 className="home-heading01">
-            <span>The first all-in-one verse </span>
-            <span className="home-text12">o</span>
-            <span className="home-text13">
-              ptimized for growth.
+            <span className="home-text16">something</span>
+            <span className="home-text17">
+              .
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -163,14 +157,13 @@ const Home = (props) => {
           </h2>
         </div>
         <div className="home-selector">
-          <p className="home-caption05">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
+          <p className="home-caption02">
+            <span className="home-text18">
+              The highest status people in human history are those that asked
+              for nothing and gave everything.
+            </span>
+            <br className="home-text19"></br>
+            <br className="home-text20"></br>
           </p>
           <div className="home-slide-titles">
             <div className="slide-title">
@@ -188,6 +181,19 @@ const Home = (props) => {
           </div>
         </div>
       </section>
+      <section className="home-statistics">
+        <div className="home-content">
+          <div className="home-stat">
+            <h3 className="home-header02">Ultra-fast turnaround</h3>
+          </div>
+          <div className="home-stat1">
+            <h3 className="home-header03">Stress-free experience</h3>
+          </div>
+          <div className="home-stat2">
+            <h3 className="home-header04">Trusted service</h3>
+          </div>
+        </div>
+      </section>
       <section className="home-slides">
         <div className="home-slider1 slider blaze-slider">
           <div className="home-slider-container blaze-container">
@@ -202,7 +208,7 @@ const Home = (props) => {
                   <div className="home-content01">
                     <div className="home-header05">
                       <h3 className="home-heading02">Metaverse</h3>
-                      <p className="home-caption06">
+                      <p className="home-caption03">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
@@ -214,7 +220,7 @@ const Home = (props) => {
                       </p>
                     </div>
                     <div className="home-more">
-                      <span className="home-caption07">Read More</span>
+                      <span className="home-caption04">Read More</span>
                       <svg viewBox="0 0 1024 1024" className="home-icon09">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
@@ -230,7 +236,7 @@ const Home = (props) => {
                   <div className="home-content02">
                     <div className="home-header06">
                       <h3 className="home-heading03">Ecosystems</h3>
-                      <p className="home-caption08">
+                      <p className="home-caption05">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
@@ -242,7 +248,7 @@ const Home = (props) => {
                       </p>
                     </div>
                     <div className="home-more1">
-                      <span className="home-caption09">Read More</span>
+                      <span className="home-caption06">Read More</span>
                       <svg viewBox="0 0 1024 1024" className="home-icon11">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
@@ -258,7 +264,7 @@ const Home = (props) => {
                   <div className="home-content03">
                     <div className="home-header07">
                       <h3 className="home-heading04">Development</h3>
-                      <p className="home-caption10">
+                      <p className="home-caption07">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
@@ -270,7 +276,7 @@ const Home = (props) => {
                       </p>
                     </div>
                     <div className="home-more2">
-                      <span className="home-caption11">Read More</span>
+                      <span className="home-caption08">Read More</span>
                       <svg viewBox="0 0 1024 1024" className="home-icon13">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
@@ -286,7 +292,7 @@ const Home = (props) => {
                   <div className="home-content04">
                     <div className="home-header08">
                       <h3 className="home-heading05">Integration</h3>
-                      <p className="home-caption12">
+                      <p className="home-caption09">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
@@ -298,7 +304,7 @@ const Home = (props) => {
                       </p>
                     </div>
                     <div className="home-more3">
-                      <span className="home-caption13">Read More</span>
+                      <span className="home-caption10">Read More</span>
                       <svg viewBox="0 0 1024 1024" className="home-icon15">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
@@ -348,12 +354,14 @@ new BlazeSlider(el, {
         <div className="home-header-container1">
           <div className="home-header09">
             <h2 className="home-heading06">
-              Companies will dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore veniam and more opportunities.
+              Moview is the home to our Video Production company where we create
+              stunning visual content to ensure brands stand out and get
+              noticed.
             </h2>
-            <p className="home-caption14">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <p className="home-caption11">
+              Our focus on creative development and full-service video
+              production ensures that every aspect of your video project is
+              handled with care and precision.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -369,48 +377,72 @@ new BlazeSlider(el, {
         </div>
         <img
           alt="image"
-          src="/playground_assets/getstarted-800w.png"
+          src="https://i.imgur.com/S0nMdGY.jpg"
           className="home-image05"
         />
       </section>
       <section className="home-objectives">
         <div className="home-content05">
-          <span className="home-text19">Objectives</span>
+          <span className="home-text26">Objectives</span>
           <div className="home-objectives-list">
             <div className="objective">
-              <h3 className="home-text20">Growth</h3>
-              <p className="home-text21">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
+              <h3 className="home-text27">Dream it</h3>
+              <p className="home-text28">
+                <span>
+                  It all begins with an idea. Whatever it is, the way you tell
+                  your story online can make all the difference to your brand
+                  image and sales. We work with businesses to create the perfect
+                  content for their audience to enhance their business.
+                </span>
+                <br className="home-text30"></br>
+                <span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
               </p>
             </div>
             <div className="objective home-objective1">
-              <h3 className="home-text22">Develop</h3>
-              <p className="home-text23">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
+              <h3 className="home-text32">Capture it</h3>
+              <p className="home-text33">
+                <span>
+                  Using the latest high-quality camera equipment our team will
+                  deliver the smoothest production possible, giving you one less
+                  thing to worry about. You can be assured that our experienced
+                  professionals will create the best possible content, on time
+                  and on budget.
+                </span>
+                <br className="home-text35"></br>
+                <br></br>
+                <span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
               </p>
             </div>
             <div className="objective home-objective2">
-              <h3 className="home-text24">Optimize</h3>
-              <p className="home-text25">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
+              <h3 className="home-text38">Create it</h3>
+              <p className="home-text39">
+                <span>
+                  At our studio, we have an in-house editing team ready to work
+                  on your project as soon as we finish filming. Meaning that
+                  100% of projects are delivered on time, most in as little as 3
+                  days.
+                </span>
+                <br className="home-text41"></br>
+                <br></br>
+                <span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
               </p>
             </div>
           </div>
@@ -421,56 +453,42 @@ new BlazeSlider(el, {
           <div className="home-header10">
             <div className="home-header11">
               <h2 className="home-heading07">
-                <span>
-                  Multiverse optimized for
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text27">growth.</span>
-                <br></br>
+                We guarantee you&apos;ll love your video or your money back*.
               </h2>
             </div>
-            <p className="home-caption15">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <p className="home-caption16">
-              Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+            <p className="home-caption12">
+              <span className="home-text44">
+                Investing in a new video for your business can be a big
+                decision, so to give you confidence, we created our satisfaction
+                guarantee. It&apos;s simple and takes the stress away. No
+                catches, If you don&apos;t like the video and we can&apos;t
+                create a version you&apos;re happy with, you don&apos;t pay.
+              </span>
+              <br className="home-text45"></br>
+              <br className="home-text46"></br>
             </p>
           </div>
           <div className="home-testimonial">
             <div className="home-content07">
-              <span className="home-text29">Testimonial</span>
-              <p className="home-text30">
-                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+              <span className="home-text47">Testimonial</span>
+              <p className="home-text48">
+                &quot;He knows all the right angles to shoot a precious moment!
+                Hard-working man, a professional artist who puts passion in his
+                work!&quot;
               </p>
             </div>
             <div className="home-information">
               <div className="home-author">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1552234994-66ba234fd567?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHBvdHJhaXR8ZW58MHx8fHwxNjcxMDU2MzMz&amp;ixlib=rb-4.0.3&amp;w=200"
+                  src="https://i.imgur.com/0Lpv0Xc.jpg"
                   className="home-icon21"
                 />
-                <span className="home-name">Andrew Gonzales</span>
+                <span className="home-name">Tea Visan</span>
               </div>
               <img
                 alt="image"
-                src="/playground_assets/logoipsum.svg"
+                src="https://i.imgur.com/k2t9fax.jpg"
                 className="home-from"
               />
             </div>
@@ -480,7 +498,7 @@ new BlazeSlider(el, {
           <div className="home-square"></div>
           <img
             alt="image"
-            src="/playground_assets/growth-1400w.png"
+            src="https://i.imgur.com/ubsnns9.jpg"
             className="home-image06"
           />
         </div>
@@ -490,7 +508,7 @@ new BlazeSlider(el, {
           <div className="home-square1"></div>
           <img
             alt="image"
-            src="/playground_assets/experience-1400w.png"
+            src="https://i.imgur.com/p0gMEgQ.jpg"
             className="home-image07"
           />
         </div>
@@ -499,13 +517,13 @@ new BlazeSlider(el, {
             <div className="home-header-container2">
               <div className="home-header13">
                 <h2 className="home-heading08">
-                  <span>A worlds class </span>
-                  <span className="home-text32">experience</span>
+                  A trusted service every time.
                 </h2>
               </div>
-              <p className="home-caption17">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
-                eiusmod.
+              <p className="home-caption13">
+                We’ve built strong and long-lasting client relationships by
+                working hard to combine creativity, excellent service delivery
+                and corporate experience.
               </p>
             </div>
             <div className="home-checkmarks">
@@ -515,7 +533,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text33">
+                <span className="home-text49">
                   Duis aute irure dolor in reprehenderit
                 </span>
               </div>
@@ -525,7 +543,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text34">Lorem ipsum dolor sit amet</span>
+                <span className="home-text50">Lorem ipsum dolor sit amet</span>
               </div>
               <div className="home-check2">
                 <div className="home-mark2">
@@ -533,7 +551,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text35">
+                <span className="home-text51">
                   Voluptate velit esse cillum dolore eu fugiat nulla
                 </span>
               </div>
@@ -543,7 +561,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="home-text36">
+                <span className="home-text52">
                   Excepteur sint occaecat cupidatat non proident sunt in culpa
                 </span>
               </div>
@@ -551,24 +569,21 @@ new BlazeSlider(el, {
           </div>
           <div className="home-testimonial1">
             <div className="home-content09">
-              <span className="home-text37">Testimonial</span>
-              <p className="home-text38">
-                “Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.”
+              <span className="home-text53">Testimonial</span>
+              <p className="home-text54">
+                &quot;A pleasant collaboration from all points of view! Positive
+                work attitude and creativity are the strong points! It has
+                everything that is technically necessary  for a quality
+                result!&quot;
               </p>
             </div>
             <div className="home-information1">
               <div className="home-author1">
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1618151313441-bc79b11e5090?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxwb3RyYWl0fGVufDB8fHx8MTY3MTA1NjMzMw&amp;ixlib=rb-4.0.3&amp;w=200"
-                  className="home-icon30"
-                />
-                <span className="home-name1">Cory Smith</span>
+                <span className="home-name1">George </span>
               </div>
               <img
                 alt="image"
-                src="/playground_assets/logoipsum-2.svg"
+                src="data:image/png;base64,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"
                 className="home-from1"
               />
             </div>
@@ -579,16 +594,15 @@ new BlazeSlider(el, {
         <div className="home-content10">
           <div className="home-header14">
             <h2 className="home-heading09">
+              <span>Outstanding </span>
+              <span className="home-text56">visual content!</span>
               <span>
-                Create your own
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
                   }}
                 />
               </span>
-              <span className="home-text40">environment</span>
-              <span> now!</span>
               <br></br>
             </h2>
           </div>
@@ -604,12 +618,11 @@ new BlazeSlider(el, {
         <div className="home-header-container3">
           <div className="home-header15">
             <h2 className="home-heading10">
-              <span>Environment c</span>
-              <span className="home-text47">omparision</span>
+              <span>Packages we offer</span>
               <br></br>
             </h2>
           </div>
-          <p className="home-caption18">
+          <p className="home-caption14">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
             eiusmod.
           </p>
@@ -617,19 +630,19 @@ new BlazeSlider(el, {
         <div className="home-table">
           <div className="home-row">
             <div className="home-headers">
-              <span className="home-text49">Placeholder</span>
+              <span className="home-text64">Placeholder</span>
             </div>
             <div className="home-plans">
               <div className="home-row01">
-                <span className="home-text50">TOGHTR</span>
-                <span className="home-text51">AGENCY</span>
-                <span className="home-text52">FRELLANCE</span>
+                <span className="home-text65">TOGHTR</span>
+                <span className="home-text66">AGENCY</span>
+                <span className="home-text67">FRELLANCE</span>
               </div>
             </div>
           </div>
           <div className="home-row02">
             <div className="home-headers1">
-              <span className="home-text53">
+              <span className="home-text68">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
@@ -649,7 +662,7 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row04">
             <div className="home-headers2">
-              <span className="home-text54">Lorem ipsum dolor sit amet</span>
+              <span className="home-text69">Lorem ipsum dolor sit amet</span>
             </div>
             <div className="home-plans2">
               <div className="home-row05">
@@ -667,14 +680,14 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row06">
             <div className="home-headers3">
-              <span className="home-text55">
+              <span className="home-text70">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
             <div className="home-plans3">
               <div className="home-row07">
                 <div className="value">
-                  <span className="home-text56">Custom</span>
+                  <span className="home-text71">Custom</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -687,17 +700,17 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row08">
             <div className="home-headers4">
-              <span className="home-text57">
+              <span className="home-text72">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
             <div className="home-plans4">
               <div className="home-row09">
                 <div className="value">
-                  <span className="home-text58">Unlimited</span>
+                  <span className="home-text73">Unlimited</span>
                 </div>
                 <div className="value">
-                  <span className="home-text59">Limited</span>
+                  <span className="home-text74">Limited</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -707,7 +720,7 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row10">
             <div className="home-headers5">
-              <span className="home-text60">Lorem ipsum dolor sit amet</span>
+              <span className="home-text75">Lorem ipsum dolor sit amet</span>
             </div>
             <div className="home-plans5">
               <div className="home-row11">
@@ -718,14 +731,14 @@ new BlazeSlider(el, {
                   <Line></Line>
                 </div>
                 <div className="value">
-                  <span className="home-text61">Limited</span>
+                  <span className="home-text76">Limited</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="home-row12">
             <div className="home-headers6">
-              <span className="home-text62">Lorem ipsum dolor sit amet</span>
+              <span className="home-text77">Lorem ipsum dolor sit amet</span>
             </div>
             <div className="home-plans6">
               <div className="home-row13">
@@ -743,7 +756,7 @@ new BlazeSlider(el, {
           </div>
           <div className="home-row14">
             <div className="home-headers7">
-              <span className="home-text63">Lorem ipsum dolor sit amet</span>
+              <span className="home-text78">Lorem ipsum dolor sit amet</span>
             </div>
             <div className="home-plans7">
               <div className="home-row15">
@@ -751,7 +764,7 @@ new BlazeSlider(el, {
                   <Check></Check>
                 </div>
                 <div className="value">
-                  <span className="home-text64">Limited</span>
+                  <span className="home-text79">Limited</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -767,33 +780,36 @@ new BlazeSlider(el, {
             <div className="home-row16">
               <h2 className="home-heading11">
                 <span>
-                  Understand your data to manage all in one
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  Versatile Video Production for Diverse Business Needs.
                 </span>
-                <span className="home-text66">platform</span>
                 <br></br>
               </h2>
             </div>
           </div>
-          <p className="home-caption19">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
+          <p className="home-caption15">
+            <span className="home-text82">
+              We make videos for all sorts of businesses for all sorts of
+              reasons, from sharing a successful customer story, to an authentic
+              employee experience or a new product development. We have filmed
+              for clients in their corporate offices, homes, factories, events
+              and even in Pink Floyd&apos;s old recording studio.
+            </span>
+            <br className="home-text83"></br>
+            <br className="home-text84"></br>
+            <span className="home-text85">
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
           </p>
         </div>
         <div className="home-content11">
           <div className="home-image08">
             <img
               alt="image"
-              src="/playground_assets/data-1400w.png"
+              src="https://i.imgur.com/N3Da6hl.jpg"
               className="home-image09"
             />
           </div>
@@ -934,7 +950,7 @@ new BlazeSlider(el, {
                 }}
               />
             </span>
-            <span className="home-text69">product development process</span>
+            <span className="home-text87">product development process</span>
             <br></br>
           </h2>
         </div>
@@ -1010,12 +1026,12 @@ new BlazeSlider(el, {
         </div>
         <div className="home-controls1">
           <button className="home-previous1 button">
-            <svg viewBox="0 0 1024 1024" className="home-icon31">
+            <svg viewBox="0 0 1024 1024" className="home-icon30">
               <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
             </svg>
           </button>
           <button className="home-next1 button">
-            <svg viewBox="0 0 1024 1024" className="home-icon33">
+            <svg viewBox="0 0 1024 1024" className="home-icon32">
               <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
             </svg>
           </button>
@@ -1031,7 +1047,7 @@ new BlazeSlider(el, {
         <div className="home-header22">
           <h2 className="home-heading13">
             <span>Frequently asked </span>
-            <span className="home-text75">questions</span>
+            <span className="home-text93">questions</span>
             <span>
               <span
                 dangerouslySetInnerHTML={{
@@ -1135,7 +1151,7 @@ new BlazeSlider(el, {
                 src="/playground_assets/logo.svg"
                 className="home-image10"
               />
-              <span className="home-text77">
+              <span className="home-text95">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 <span
@@ -1159,7 +1175,7 @@ new BlazeSlider(el, {
                     How
                   </Link>
                   <Link to="/" className="home-navlink03">
-                    <span className="home-text78">Why</span>
+                    <span className="home-text96">Why</span>
                     <br></br>
                   </Link>
                 </div>
@@ -1213,7 +1229,7 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="home-bottom">
-            <span className="home-text80">
+            <span className="home-text98">
               © 2022 togthr - All rights reserved
             </span>
             <button data-role="scroll-top" className="home-button5 button">
