@@ -39,7 +39,7 @@ const Contact = (props) => {
           className="contact-image"
         />
         <div className="contact-nav">
-          <NavigationLinks1 rootClassName="rootClassName18"></NavigationLinks1>
+          <NavigationLinks1 rootClassName="rootClassName25"></NavigationLinks1>
         </div>
         <div data-role="BurgerMenu" className="contact-burger-menu">
           <svg viewBox="0 0 1024 1024" className="contact-icon">
@@ -60,7 +60,7 @@ const Contact = (props) => {
                 </svg>
               </div>
             </div>
-            <NavigationLinks1 rootClassName="rootClassName19"></NavigationLinks1>
+            <NavigationLinks1 rootClassName="rootClassName26"></NavigationLinks1>
           </div>
           <div>
             <svg
@@ -94,91 +94,35 @@ const Contact = (props) => {
           playsInline
           className="contact-video"
         ></video>
-        <header data-role="Header" className="contact-header01">
-          <img
-            alt="logo"
-            src="https://i.imgur.com/h00gRM7.png"
-            className="contact-image02"
-          />
-          <div className="contact-nav2"></div>
-          <div className="contact-btn-group">
-            <button className="contact-login button">Login</button>
-            <button className="button">Register</button>
-          </div>
-          <div data-role="BurgerMenu" className="contact-burger-menu1">
-            <svg viewBox="0 0 1024 1024" className="contact-icon10">
-              <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
-            </svg>
-          </div>
-          <div data-role="MobileMenu" className="contact-mobile-menu1">
-            <div className="contact-nav3">
-              <div className="contact-container2">
-                <img
-                  alt="image"
-                  src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                  className="contact-image03"
-                />
-                <div
-                  data-role="CloseMobileMenu"
-                  className="contact-menu-close1"
-                >
-                  <svg viewBox="0 0 1024 1024" className="contact-icon12">
-                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div>
-              <svg
-                viewBox="0 0 950.8571428571428 1024"
-                className="contact-icon14"
-              >
-                <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
-              </svg>
-              <svg
-                viewBox="0 0 877.7142857142857 1024"
-                className="contact-icon16"
-              >
-                <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-              </svg>
-              <svg
-                viewBox="0 0 602.2582857142856 1024"
-                className="contact-icon18"
-              >
-                <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
-              </svg>
-            </div>
-          </div>
-        </header>
         <header data-thq="thq-navbar" className="contact-navbar">
           <img
             alt="image"
             src="https://i.imgur.com/h00gRM7.png"
             className="contact-branding"
           />
-          <div data-thq="thq-burger-menu" className="contact-burger-menu2">
+          <div data-thq="thq-burger-menu" className="contact-burger-menu1">
             <div className="contact-hamburger">
               <img
                 alt="image"
                 src="/playground_assets/hamburger.svg"
-                className="contact-icon20"
+                className="contact-icon10"
               />
             </div>
           </div>
-          <div data-thq="thq-mobile-menu" className="contact-mobile-menu2">
+          <div data-thq="thq-mobile-menu" className="contact-mobile-menu1">
             <div
               data-thq="thq-mobile-menu-nav"
               data-role="Nav"
-              className="contact-nav4"
+              className="contact-nav2"
             >
-              <div className="contact-container3">
+              <div className="contact-container2">
                 <img
                   alt="image"
                   src="/playground_assets/logo.svg"
-                  className="contact-image04"
+                  className="contact-image02"
                 />
-                <div data-thq="thq-close-menu" className="contact-menu-close2">
-                  <svg viewBox="0 0 1024 1024" className="contact-icon21">
+                <div data-thq="thq-close-menu" className="contact-menu-close1">
+                  <svg viewBox="0 0 1024 1024" className="contact-icon11">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                   </svg>
                 </div>
@@ -186,35 +130,35 @@ const Contact = (props) => {
               <nav
                 data-thq="thq-mobile-menu-nav-links"
                 data-role="Nav"
-                className="contact-nav5"
+                className="contact-nav3"
               >
                 <span className="contact-text">About</span>
-                <span className="contact-text001">Features</span>
-                <span className="contact-text002">Pricing</span>
-                <span className="contact-text003">Team</span>
-                <span className="contact-text004">Blog</span>
+                <span className="contact-text01">Features</span>
+                <span className="contact-text02">Pricing</span>
+                <span className="contact-text03">Team</span>
+                <span className="contact-text04">Blog</span>
               </nav>
-              <div className="contact-container4">
-                <button className="contact-login1 button">Login</button>
+              <div className="contact-container3">
+                <button className="contact-login button">Login</button>
                 <button className="button">Register</button>
               </div>
             </div>
-            <div className="contact-icon-group2">
+            <div className="contact-icon-group1">
               <svg
                 viewBox="0 0 950.8571428571428 1024"
-                className="contact-icon23"
+                className="contact-icon13"
               >
                 <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
               </svg>
               <svg
                 viewBox="0 0 877.7142857142857 1024"
-                className="contact-icon25"
+                className="contact-icon15"
               >
                 <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
               </svg>
               <svg
                 viewBox="0 0 602.2582857142856 1024"
-                className="contact-icon27"
+                className="contact-icon17"
               >
                 <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
               </svg>
@@ -223,53 +167,26 @@ const Contact = (props) => {
         </header>
         <div className="contact-hero-content">
           <div className="contact-header-container">
-            <div className="contact-header02">
-              <h1 className="contact-heading">
-                <span>
-                  Face-to-face with
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="contact-text006">imagination</span>
-                <br></br>
-              </h1>
-            </div>
-            <p className="contact-caption">
-              We make brands stand out through Video Content.
-            </p>
+            <div className="contact-header01"></div>
           </div>
-          <button
-            id="contact"
-            name="Let's talk"
-            type="button"
-            className="button contact-button"
-          >
-            <span>
-              <span>Let&apos;s talk!</span>
-              <br></br>
-            </span>
-          </button>
         </div>
       </section>
       <section className="contact-note">
-        <h2 className="contact-caption01">
-          <span className="contact-text011">
+        <h2 className="contact-caption">
+          <span className="contact-text05">
             Get noticed with &quot;Scroll Stopping&quot; Video Content!
           </span>
           <br></br>
-          <br className="contact-text013"></br>
-          <span className="contact-text014">
+          <br className="contact-text07"></br>
+          <span className="contact-text08">
             Our diverse team has created engaging content for brands all over
             the world.
           </span>
         </h2>
       </section>
       <section className="contact-slider">
-        <div className="contact-header03">
-          <h2 className="contact-heading01">
+        <div className="contact-header02">
+          <h2 className="contact-heading">
             <span>
               From nothing to
               <span
@@ -278,8 +195,8 @@ const Contact = (props) => {
                 }}
               />
             </span>
-            <span className="contact-text016">something</span>
-            <span className="contact-text017">
+            <span className="contact-text10">something</span>
+            <span className="contact-text11">
               .
               <span
                 dangerouslySetInnerHTML={{
@@ -290,13 +207,13 @@ const Contact = (props) => {
           </h2>
         </div>
         <div className="contact-selector">
-          <p className="contact-caption02">
-            <span className="contact-text018">
+          <p className="contact-caption01">
+            <span className="contact-text12">
               The highest status people in human history are those that asked
               for nothing and gave everything.
             </span>
-            <br className="contact-text019"></br>
-            <br className="contact-text020"></br>
+            <br className="contact-text13"></br>
+            <br className="contact-text14"></br>
           </p>
           <div className="contact-slide-titles">
             <div className="slide-title">
@@ -317,13 +234,13 @@ const Contact = (props) => {
       <section className="contact-statistics">
         <div className="contact-content">
           <div className="contact-stat">
-            <h3 className="contact-header04">Ultra-fast turnaround</h3>
+            <h3 className="contact-header03">Ultra-fast turnaround</h3>
           </div>
           <div className="contact-stat1">
-            <h3 className="contact-header05">Stress-free experience</h3>
+            <h3 className="contact-header04">Stress-free experience</h3>
           </div>
           <div className="contact-stat2">
-            <h3 className="contact-header06">Trusted service</h3>
+            <h3 className="contact-header05">Trusted service</h3>
           </div>
         </div>
       </section>
@@ -336,12 +253,12 @@ const Contact = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/slider-ecosystems-400h.png"
-                    className="contact-image05"
+                    className="contact-image03"
                   />
                   <div className="contact-content01">
-                    <div className="contact-header07">
-                      <h3 className="contact-heading02">Metaverse</h3>
-                      <p className="contact-caption03">
+                    <div className="contact-header06">
+                      <h3 className="contact-heading01">Metaverse</h3>
+                      <p className="contact-caption02">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
@@ -353,8 +270,8 @@ const Contact = (props) => {
                       </p>
                     </div>
                     <div className="contact-more">
-                      <span className="contact-caption04">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="contact-icon29">
+                      <span className="contact-caption03">Read More</span>
+                      <svg viewBox="0 0 1024 1024" className="contact-icon19">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -364,12 +281,12 @@ const Contact = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/slider-ecosystems-400h.png"
-                    className="contact-image06"
+                    className="contact-image04"
                   />
                   <div className="contact-content02">
-                    <div className="contact-header08">
-                      <h3 className="contact-heading03">Ecosystems</h3>
-                      <p className="contact-caption05">
+                    <div className="contact-header07">
+                      <h3 className="contact-heading02">Ecosystems</h3>
+                      <p className="contact-caption04">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
@@ -381,8 +298,8 @@ const Contact = (props) => {
                       </p>
                     </div>
                     <div className="contact-more1">
-                      <span className="contact-caption06">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="contact-icon31">
+                      <span className="contact-caption05">Read More</span>
+                      <svg viewBox="0 0 1024 1024" className="contact-icon21">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -392,12 +309,12 @@ const Contact = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/slider-ecosystems-400h.png"
-                    className="contact-image07"
+                    className="contact-image05"
                   />
                   <div className="contact-content03">
-                    <div className="contact-header09">
-                      <h3 className="contact-heading04">Development</h3>
-                      <p className="contact-caption07">
+                    <div className="contact-header08">
+                      <h3 className="contact-heading03">Development</h3>
+                      <p className="contact-caption06">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
@@ -409,8 +326,8 @@ const Contact = (props) => {
                       </p>
                     </div>
                     <div className="contact-more2">
-                      <span className="contact-caption08">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="contact-icon33">
+                      <span className="contact-caption07">Read More</span>
+                      <svg viewBox="0 0 1024 1024" className="contact-icon23">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -420,12 +337,12 @@ const Contact = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/slider-ecosystems-400h.png"
-                    className="contact-image08"
+                    className="contact-image06"
                   />
                   <div className="contact-content04">
-                    <div className="contact-header10">
-                      <h3 className="contact-heading05">Integration</h3>
-                      <p className="contact-caption09">
+                    <div className="contact-header09">
+                      <h3 className="contact-heading04">Integration</h3>
+                      <p className="contact-caption08">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
@@ -437,8 +354,8 @@ const Contact = (props) => {
                       </p>
                     </div>
                     <div className="contact-more3">
-                      <span className="contact-caption10">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="contact-icon35">
+                      <span className="contact-caption09">Read More</span>
+                      <svg viewBox="0 0 1024 1024" className="contact-icon25">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -451,7 +368,7 @@ const Contact = (props) => {
                 data-role="previous-banner-button"
                 className="contact-previous blaze-prev button"
               >
-                <svg viewBox="0 0 1024 1024" className="contact-icon37">
+                <svg viewBox="0 0 1024 1024" className="contact-icon27">
                   <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
                 </svg>
               </button>
@@ -459,7 +376,7 @@ const Contact = (props) => {
                 data-role="next-banner-button"
                 className="contact-next blaze-next button"
               >
-                <svg viewBox="0 0 1024 1024" className="contact-icon39">
+                <svg viewBox="0 0 1024 1024" className="contact-icon29">
                   <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                 </svg>
               </button>
@@ -485,13 +402,13 @@ new BlazeSlider(el, {
       </section>
       <section className="contact-get-started">
         <div className="contact-header-container1">
-          <div className="contact-header11">
-            <h2 className="contact-heading06">
+          <div className="contact-header10">
+            <h2 className="contact-heading05">
               Moview is the home to our Video Production company where we create
               stunning visual content to ensure brands stand out and get
               noticed.
             </h2>
-            <p className="contact-caption11">
+            <p className="contact-caption10">
               Our focus on creative development and full-service video
               production ensures that every aspect of your video project is
               handled with care and precision.
@@ -502,7 +419,7 @@ new BlazeSlider(el, {
               />
             </p>
           </div>
-          <div className="contact-button1">
+          <div className="contact-button">
             <button className="button">
               <span>Our work</span>
             </button>
@@ -511,10 +428,10 @@ new BlazeSlider(el, {
         <img
           alt="image"
           src="https://i.imgur.com/S0nMdGY.jpg"
-          className="contact-image09"
+          className="contact-image07"
         />
       </section>
-      <h2 className="contact-heading07">
+      <h2 className="contact-heading06">
         <span>
           Customer validation is an essential phase of the
           <span
@@ -523,23 +440,23 @@ new BlazeSlider(el, {
             }}
           />
         </span>
-        <span className="contact-text027">production process.</span>
+        <span className="contact-text21">production process.</span>
         <br></br>
       </h2>
       <section className="contact-objectives">
         <div className="contact-content05">
-          <span className="contact-text029">Objectives</span>
+          <span className="contact-text23">Objectives</span>
           <div className="contact-objectives-list">
             <div className="objective">
-              <h3 className="contact-text030">Dream it</h3>
-              <p className="contact-text031">
+              <h3 className="contact-text24">Dream it</h3>
+              <p className="contact-text25">
                 <span>
                   It all begins with an idea. Whatever it is, the way you tell
                   your story online can make all the difference to your brand
                   image and sales. We work with businesses to create the perfect
                   content for their audience to enhance their business.
                 </span>
-                <br className="contact-text033"></br>
+                <br className="contact-text27"></br>
                 <span>
                   <span
                     dangerouslySetInnerHTML={{
@@ -550,8 +467,8 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="objective contact-objective1">
-              <h3 className="contact-text035">Capture it</h3>
-              <p className="contact-text036">
+              <h3 className="contact-text29">Capture it</h3>
+              <p className="contact-text30">
                 <span>
                   Using the latest high-quality camera equipment our team will
                   deliver the smoothest production possible, giving you one less
@@ -559,7 +476,7 @@ new BlazeSlider(el, {
                   professionals will create the best possible content, on time
                   and on budget.
                 </span>
-                <br className="contact-text038"></br>
+                <br className="contact-text32"></br>
                 <br></br>
                 <span>
                   <span
@@ -571,15 +488,15 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="objective contact-objective2">
-              <h3 className="contact-text041">Create it</h3>
-              <p className="contact-text042">
+              <h3 className="contact-text35">Create it</h3>
+              <p className="contact-text36">
                 <span>
                   At our studio, we have an in-house editing team ready to work
                   on your project as soon as we finish filming. Meaning that
                   100% of projects are delivered on time, most in as little as 3
                   days.
                 </span>
-                <br className="contact-text044"></br>
+                <br className="contact-text38"></br>
                 <br></br>
                 <span>
                   <span
@@ -595,34 +512,34 @@ new BlazeSlider(el, {
       </section>
       <section className="contact-growth">
         <div className="contact-content06">
-          <div className="contact-header12">
-            <div className="contact-header13">
-              <h2 className="contact-heading08">
+          <div className="contact-header11">
+            <div className="contact-header12">
+              <h2 className="contact-heading07">
                 We guarantee you&apos;ll love your video or your money back*.
               </h2>
             </div>
-            <p className="contact-caption12">
-              <span className="contact-text047">
+            <p className="contact-caption11">
+              <span className="contact-text41">
                 Investing in a new video for your business can be a big
                 decision, so to give you confidence, we created our satisfaction
                 guarantee. It&apos;s simple and takes the stress away. No
                 catches, If you don&apos;t like the video and we can&apos;t
                 create a version you&apos;re happy with, you don&apos;t pay.
               </span>
-              <br className="contact-text048"></br>
-              <br className="contact-text049"></br>
-              <span className="contact-text050">
+              <br className="contact-text42"></br>
+              <br className="contact-text43"></br>
+              <span className="contact-text44">
                 *refund amount is noted on the contract.
               </span>
-              <br className="contact-text051"></br>
-              <br className="contact-text052"></br>
-              <br className="contact-text053"></br>
+              <br className="contact-text45"></br>
+              <br className="contact-text46"></br>
+              <br className="contact-text47"></br>
             </p>
           </div>
           <div className="contact-testimonial">
             <div className="contact-content07">
-              <span className="contact-text054">Testimonial</span>
-              <p className="contact-text055">
+              <span className="contact-text48">Testimonial</span>
+              <p className="contact-text49">
                 &quot;He knows all the right angles to shoot a precious moment!
                 Hard-working man, a professional artist who puts passion in his
                 work!&quot;
@@ -633,7 +550,7 @@ new BlazeSlider(el, {
                 <img
                   alt="image"
                   src="https://i.imgur.com/0Lpv0Xc.jpg"
-                  className="contact-icon41"
+                  className="contact-icon31"
                 />
                 <span className="contact-name">Tea Visan</span>
               </div>
@@ -657,7 +574,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="https://i.imgur.com/ubsnns9.jpg"
-            className="contact-image10"
+            className="contact-image08"
           />
         </div>
       </section>
@@ -667,18 +584,18 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="https://i.imgur.com/p0gMEgQ.jpg"
-            className="contact-image11"
+            className="contact-image09"
           />
         </div>
         <div className="contact-content08">
-          <div className="contact-header14">
+          <div className="contact-header13">
             <div className="contact-header-container2">
-              <div className="contact-header15">
-                <h2 className="contact-heading09">
+              <div className="contact-header14">
+                <h2 className="contact-heading08">
                   A trusted service every time.
                 </h2>
               </div>
-              <p className="contact-caption13">
+              <p className="contact-caption12">
                 We’ve built strong and long-lasting client relationships by
                 working hard to combine creativity, excellent service delivery
                 and corporate experience.
@@ -687,41 +604,41 @@ new BlazeSlider(el, {
             <div className="contact-checkmarks">
               <div className="contact-check">
                 <div className="contact-mark">
-                  <svg viewBox="0 0 1024 1024" className="contact-icon42">
+                  <svg viewBox="0 0 1024 1024" className="contact-icon32">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="contact-text056">
+                <span className="contact-text50">
                   Duis aute irure dolor in reprehenderit
                 </span>
               </div>
               <div className="contact-check1">
                 <div className="contact-mark1">
-                  <svg viewBox="0 0 1024 1024" className="contact-icon44">
+                  <svg viewBox="0 0 1024 1024" className="contact-icon34">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="contact-text057">
+                <span className="contact-text51">
                   Lorem ipsum dolor sit amet
                 </span>
               </div>
               <div className="contact-check2">
                 <div className="contact-mark2">
-                  <svg viewBox="0 0 1024 1024" className="contact-icon46">
+                  <svg viewBox="0 0 1024 1024" className="contact-icon36">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="contact-text058">
+                <span className="contact-text52">
                   Voluptate velit esse cillum dolore eu fugiat nulla
                 </span>
               </div>
               <div className="contact-check3">
                 <div className="contact-mark3">
-                  <svg viewBox="0 0 1024 1024" className="contact-icon48">
+                  <svg viewBox="0 0 1024 1024" className="contact-icon38">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="contact-text059">
+                <span className="contact-text53">
                   Excepteur sint occaecat cupidatat non proident sunt in culpa
                 </span>
               </div>
@@ -729,8 +646,8 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-testimonial1">
             <div className="contact-content09">
-              <span className="contact-text060">Testimonial</span>
-              <p className="contact-text061">
+              <span className="contact-text54">Testimonial</span>
+              <p className="contact-text55">
                 &quot;A pleasant collaboration from all points of view! Positive
                 work attitude and creativity are the strong points! It has
                 everything that is technically necessary  for a quality
@@ -759,10 +676,10 @@ new BlazeSlider(el, {
       </section>
       <section className="contact-create">
         <div className="contact-content10">
-          <div className="contact-header16">
-            <h2 className="contact-heading10">
+          <div className="contact-header15">
+            <h2 className="contact-heading09">
               <span>Outstanding </span>
-              <span className="contact-text063">visual content!</span>
+              <span className="contact-text57">visual content!</span>
               <span>
                 <span
                   dangerouslySetInnerHTML={{
@@ -773,7 +690,7 @@ new BlazeSlider(el, {
               <br></br>
             </h2>
           </div>
-          <button className="contact-button3 button">
+          <button className="contact-button2 button">
             <span>
               <span>Get started today</span>
               <br></br>
@@ -783,13 +700,13 @@ new BlazeSlider(el, {
       </section>
       <section className="contact-comparision">
         <div className="contact-header-container3">
-          <div className="contact-header17">
-            <h2 className="contact-heading11">
+          <div className="contact-header16">
+            <h2 className="contact-heading10">
               <span>Packages we offer</span>
               <br></br>
             </h2>
           </div>
-          <p className="contact-caption14">
+          <p className="contact-caption13">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
             eiusmod.
           </p>
@@ -797,19 +714,19 @@ new BlazeSlider(el, {
         <div className="contact-table">
           <div className="contact-row">
             <div className="contact-headers">
-              <span className="contact-text071">Placeholder</span>
+              <span className="contact-text65">Placeholder</span>
             </div>
             <div className="contact-plans">
               <div className="contact-row01">
-                <span className="contact-text072">TOGHTR</span>
-                <span className="contact-text073">AGENCY</span>
-                <span className="contact-text074">FRELLANCE</span>
+                <span className="contact-text66">TOGHTR</span>
+                <span className="contact-text67">AGENCY</span>
+                <span className="contact-text68">FRELLANCE</span>
               </div>
             </div>
           </div>
           <div className="contact-row02">
             <div className="contact-headers1">
-              <span className="contact-text075">
+              <span className="contact-text69">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
@@ -829,9 +746,7 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-row04">
             <div className="contact-headers2">
-              <span className="contact-text076">
-                Lorem ipsum dolor sit amet
-              </span>
+              <span className="contact-text70">Lorem ipsum dolor sit amet</span>
             </div>
             <div className="contact-plans2">
               <div className="contact-row05">
@@ -849,14 +764,14 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-row06">
             <div className="contact-headers3">
-              <span className="contact-text077">
+              <span className="contact-text71">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
             <div className="contact-plans3">
               <div className="contact-row07">
                 <div className="value">
-                  <span className="contact-text078">Custom</span>
+                  <span className="contact-text72">Custom</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -869,17 +784,17 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-row08">
             <div className="contact-headers4">
-              <span className="contact-text079">
+              <span className="contact-text73">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
             <div className="contact-plans4">
               <div className="contact-row09">
                 <div className="value">
-                  <span className="contact-text080">Unlimited</span>
+                  <span className="contact-text74">Unlimited</span>
                 </div>
                 <div className="value">
-                  <span className="contact-text081">Limited</span>
+                  <span className="contact-text75">Limited</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -889,9 +804,7 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-row10">
             <div className="contact-headers5">
-              <span className="contact-text082">
-                Lorem ipsum dolor sit amet
-              </span>
+              <span className="contact-text76">Lorem ipsum dolor sit amet</span>
             </div>
             <div className="contact-plans5">
               <div className="contact-row11">
@@ -902,16 +815,14 @@ new BlazeSlider(el, {
                   <Line></Line>
                 </div>
                 <div className="value">
-                  <span className="contact-text083">Limited</span>
+                  <span className="contact-text77">Limited</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="contact-row12">
             <div className="contact-headers6">
-              <span className="contact-text084">
-                Lorem ipsum dolor sit amet
-              </span>
+              <span className="contact-text78">Lorem ipsum dolor sit amet</span>
             </div>
             <div className="contact-plans6">
               <div className="contact-row13">
@@ -929,9 +840,7 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-row14">
             <div className="contact-headers7">
-              <span className="contact-text085">
-                Lorem ipsum dolor sit amet
-              </span>
+              <span className="contact-text79">Lorem ipsum dolor sit amet</span>
             </div>
             <div className="contact-plans7">
               <div className="contact-row15">
@@ -939,7 +848,7 @@ new BlazeSlider(el, {
                   <Check></Check>
                 </div>
                 <div className="value">
-                  <span className="contact-text086">Limited</span>
+                  <span className="contact-text80">Limited</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -951,9 +860,9 @@ new BlazeSlider(el, {
       </section>
       <section className="contact-data">
         <div className="contact-header-container4">
-          <div className="contact-header18">
+          <div className="contact-header17">
             <div className="contact-row16">
-              <h2 className="contact-heading12">
+              <h2 className="contact-heading11">
                 <span>
                   Versatile Video Production for Diverse Business Needs.
                 </span>
@@ -961,17 +870,17 @@ new BlazeSlider(el, {
               </h2>
             </div>
           </div>
-          <p className="contact-caption15">
-            <span className="contact-text089">
+          <p className="contact-caption14">
+            <span className="contact-text83">
               We make videos for all sorts of businesses for all sorts of
               reasons, from sharing a successful customer story, to an authentic
               employee experience or a new product development. We have filmed
               for clients in their corporate offices, homes, factories, events
               and others.
             </span>
-            <br className="contact-text090"></br>
-            <br className="contact-text091"></br>
-            <span className="contact-text092">
+            <br className="contact-text84"></br>
+            <br className="contact-text85"></br>
+            <span className="contact-text86">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -981,17 +890,17 @@ new BlazeSlider(el, {
           </p>
         </div>
         <div className="contact-content11">
-          <div className="contact-image12">
+          <div className="contact-image10">
             <img
               alt="image"
               src="https://i.imgur.com/hjx4j7N.jpg"
-              className="contact-image13"
+              className="contact-image11"
             />
           </div>
           <div className="contact-accordion">
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="contact-header19">Our studio</h3>
+                <h3 className="contact-header18">Our studio</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -1008,7 +917,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="contact-header20">Our prices</h3>
+                <h3 className="contact-header19">Our prices</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -1025,7 +934,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="contact-header21">Photography</h3>
+                <h3 className="contact-header20">Photography</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -1042,7 +951,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="contact-header22">Promotional videos</h3>
+                <h3 className="contact-header21">Promotional videos</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -1115,7 +1024,7 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="contact-customer">
-        <div className="contact-header23"></div>
+        <div className="contact-header22"></div>
         <div className="contact-quotes">
           <div className="contact-quote">
             <p className="contact-quote1">
@@ -1188,16 +1097,16 @@ new BlazeSlider(el, {
         </div>
         <div className="contact-controls1">
           <button className="contact-previous1 button">
-            <svg viewBox="0 0 1024 1024" className="contact-icon50">
+            <svg viewBox="0 0 1024 1024" className="contact-icon40">
               <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
             </svg>
           </button>
           <button className="contact-next1 button">
-            <svg viewBox="0 0 1024 1024" className="contact-icon52">
+            <svg viewBox="0 0 1024 1024" className="contact-icon42">
               <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
             </svg>
           </button>
-          <button className="button contact-button4">
+          <button className="button contact-button3">
             <span>
               <span>View all cases</span>
               <br></br>
@@ -1206,10 +1115,10 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="contact-f-a-q">
-        <div className="contact-header24">
-          <h2 className="contact-heading13">
+        <div className="contact-header23">
+          <h2 className="contact-heading12">
             <span>Frequently asked </span>
-            <span className="contact-text097">questions</span>
+            <span className="contact-text91">questions</span>
             <span>
               <span
                 dangerouslySetInnerHTML={{
@@ -1222,7 +1131,7 @@ new BlazeSlider(el, {
         <div className="contact-content20">
           <div className="contact-column">
             <div className="contact-element04">
-              <h3 className="contact-header25">
+              <h3 className="contact-header24">
                 Lorem ipsum dolor sit ametetur elit?
               </h3>
               <p className="contact-content21">
@@ -1236,7 +1145,7 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="contact-element05">
-              <h3 className="contact-header26">
+              <h3 className="contact-header25">
                 Excepteur sint occaecat cupidatat non sunt in culpa qui officia
                 deserunt mollit anim id est laborum?
               </h3>
@@ -1248,7 +1157,7 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="contact-element06">
-              <h3 className="contact-header27">
+              <h3 className="contact-header26">
                 Tempor incididunt ut labore et dolore magna aliquat enim ad
                 minim?
               </h3>
@@ -1263,7 +1172,7 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-column1">
             <div className="contact-element07">
-              <h3 className="contact-header28">
+              <h3 className="contact-header27">
                 Tempor incididunt ut labore et dolore magna aliquat enim ad
                 minim?
               </h3>
@@ -1276,7 +1185,7 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="contact-element08">
-              <h3 className="contact-header29">
+              <h3 className="contact-header28">
                 Lorem ipsum dolor sit ametetur elit?
               </h3>
               <p className="contact-content25">
@@ -1290,7 +1199,7 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="contact-element09">
-              <h3 className="contact-header30">
+              <h3 className="contact-header29">
                 Incididunt ut labore et dolore?
               </h3>
               <p className="contact-content26">
@@ -1310,82 +1219,78 @@ new BlazeSlider(el, {
         <div className="contact-content27">
           <div className="contact-main">
             <div className="contact-branding1">
-              <img
-                alt="image"
-                src="/playground_assets/logo.svg"
-                className="contact-image14"
-              />
-              <span className="contact-text099">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
+              <Link to="/" className="contact-navlink">
+                <img
+                  alt="image"
+                  src="https://i.imgur.com/h00gRM7.png"
+                  className="contact-image12"
                 />
+              </Link>
+              <span className="contact-text93">
+                Available world-wide, at any time.
               </span>
             </div>
             <div className="contact-links">
               <div className="contact-column2">
-                <span className="contact-header31">Company</span>
+                <span className="contact-header30">Company</span>
                 <div className="contact-list">
-                  <Link to="/" className="contact-navlink">
+                  <Link to="/" className="contact-navlink01">
                     About
                   </Link>
-                  <Link to="/" className="contact-navlink01">
+                  <Link to="/" className="contact-navlink02">
                     Services
                   </Link>
-                  <Link to="/" className="contact-navlink02">
+                  <Link to="/" className="contact-navlink03">
                     How
                   </Link>
-                  <Link to="/" className="contact-navlink03">
-                    <span className="contact-text100">Why</span>
+                  <Link to="/" className="contact-navlink04">
+                    <span className="contact-text94">Why</span>
                     <br></br>
                   </Link>
                 </div>
               </div>
               <div className="contact-column3">
-                <span className="contact-header32">Extern</span>
+                <span className="contact-header31">Extern</span>
                 <div className="contact-list1">
-                  <Link to="/" className="contact-navlink04">
+                  <Link to="/" className="contact-navlink05">
                     News
                   </Link>
-                  <Link to="/" className="contact-navlink05">
+                  <Link to="/" className="contact-navlink06">
                     Articles
                   </Link>
-                  <Link to="/" className="contact-navlink06">
+                  <Link to="/" className="contact-navlink07">
                     Blog
                   </Link>
-                  <Link to="/" className="contact-navlink07">
+                  <Link to="/" className="contact-navlink08">
                     Privacy
                   </Link>
-                  <Link to="/" className="contact-navlink08">
+                  <Link to="/" className="contact-navlink09">
                     Terms
                   </Link>
-                  <Link to="/" className="contact-navlink09">
+                  <Link to="/" className="contact-navlink10">
                     Legal
                   </Link>
-                  <Link to="/" className="contact-navlink10">
+                  <Link to="/" className="contact-navlink11">
                     Press
                   </Link>
                 </div>
               </div>
               <div className="contact-column4">
-                <span className="contact-header33">Social</span>
+                <span className="contact-header32">Social</span>
                 <div className="contact-list2">
-                  <Link to="/" className="contact-navlink11">
+                  <Link to="/" className="contact-navlink12">
                     LinkedIn
                   </Link>
-                  <Link to="/" className="contact-navlink12">
+                  <Link to="/" className="contact-navlink13">
                     Twitter
                   </Link>
-                  <Link to="/" className="contact-navlink13">
+                  <Link to="/" className="contact-navlink14">
                     Instagram
                   </Link>
-                  <Link to="/" className="contact-navlink14">
+                  <Link to="/" className="contact-navlink15">
                     Facebook
                   </Link>
-                  <Link to="/" className="contact-navlink15">
+                  <Link to="/" className="contact-navlink16">
                     TikTok
                   </Link>
                 </div>
@@ -1393,16 +1298,20 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="contact-bottom">
-            <span className="contact-text102">
+            <span className="contact-text96">
               © 2023 MOVIEW | Stefan Doncean - All rights reserved
             </span>
-            <button data-role="scroll-top" className="contact-button5 button">
+            <a
+              href="#header"
+              data-role="scroll-top"
+              className="contact-link2 button"
+            >
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
-                className="contact-image15"
+                className="contact-image13"
               />
-            </button>
+            </a>
           </div>
         </div>
       </div>

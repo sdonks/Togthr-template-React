@@ -39,7 +39,7 @@ const Services = (props) => {
           className="services-image"
         />
         <div className="services-nav">
-          <NavigationLinks1 rootClassName="rootClassName16"></NavigationLinks1>
+          <NavigationLinks1 rootClassName="rootClassName11"></NavigationLinks1>
         </div>
         <div data-role="BurgerMenu" className="services-burger-menu">
           <svg viewBox="0 0 1024 1024" className="services-icon">
@@ -60,7 +60,7 @@ const Services = (props) => {
                 </svg>
               </div>
             </div>
-            <NavigationLinks1 rootClassName="rootClassName17"></NavigationLinks1>
+            <NavigationLinks1 rootClassName="rootClassName24"></NavigationLinks1>
           </div>
           <div>
             <svg
@@ -1254,35 +1254,31 @@ new BlazeSlider(el, {
         <div className="services-content27">
           <div className="services-main">
             <div className="services-branding1">
-              <img
-                alt="image"
-                src="/playground_assets/logo.svg"
-                className="services-image12"
-              />
-              <span className="services-text099">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
+              <Link to="/" className="services-navlink">
+                <img
+                  alt="image"
+                  src="https://i.imgur.com/h00gRM7.png"
+                  className="services-image12"
                 />
+              </Link>
+              <span className="services-text099">
+                Available world-wide, at any time.
               </span>
             </div>
             <div className="services-links">
               <div className="services-column2">
                 <span className="services-header30">Company</span>
                 <div className="services-list">
-                  <Link to="/" className="services-navlink">
+                  <Link to="/" className="services-navlink01">
                     About
                   </Link>
-                  <Link to="/" className="services-navlink01">
+                  <Link to="/" className="services-navlink02">
                     Services
                   </Link>
-                  <Link to="/" className="services-navlink02">
+                  <Link to="/" className="services-navlink03">
                     How
                   </Link>
-                  <Link to="/" className="services-navlink03">
+                  <Link to="/" className="services-navlink04">
                     <span className="services-text100">Why</span>
                     <br></br>
                   </Link>
@@ -1291,25 +1287,25 @@ new BlazeSlider(el, {
               <div className="services-column3">
                 <span className="services-header31">Extern</span>
                 <div className="services-list1">
-                  <Link to="/" className="services-navlink04">
+                  <Link to="/" className="services-navlink05">
                     News
                   </Link>
-                  <Link to="/" className="services-navlink05">
+                  <Link to="/" className="services-navlink06">
                     Articles
                   </Link>
-                  <Link to="/" className="services-navlink06">
+                  <Link to="/" className="services-navlink07">
                     Blog
                   </Link>
-                  <Link to="/" className="services-navlink07">
+                  <Link to="/" className="services-navlink08">
                     Privacy
                   </Link>
-                  <Link to="/" className="services-navlink08">
+                  <Link to="/" className="services-navlink09">
                     Terms
                   </Link>
-                  <Link to="/" className="services-navlink09">
+                  <Link to="/" className="services-navlink10">
                     Legal
                   </Link>
-                  <Link to="/" className="services-navlink10">
+                  <Link to="/" className="services-navlink11">
                     Press
                   </Link>
                 </div>
@@ -1317,19 +1313,19 @@ new BlazeSlider(el, {
               <div className="services-column4">
                 <span className="services-header32">Social</span>
                 <div className="services-list2">
-                  <Link to="/" className="services-navlink11">
+                  <Link to="/" className="services-navlink12">
                     LinkedIn
                   </Link>
-                  <Link to="/" className="services-navlink12">
+                  <Link to="/" className="services-navlink13">
                     Twitter
                   </Link>
-                  <Link to="/" className="services-navlink13">
+                  <Link to="/" className="services-navlink14">
                     Instagram
                   </Link>
-                  <Link to="/" className="services-navlink14">
+                  <Link to="/" className="services-navlink15">
                     Facebook
                   </Link>
-                  <Link to="/" className="services-navlink15">
+                  <Link to="/" className="services-navlink16">
                     TikTok
                   </Link>
                 </div>
@@ -1340,13 +1336,17 @@ new BlazeSlider(el, {
             <span className="services-text102">
               © 2023 MOVIEW | Stefan Doncean - All rights reserved
             </span>
-            <button data-role="scroll-top" className="services-button5 button">
+            <a
+              href="#header"
+              data-role="scroll-top"
+              className="services-link2 button"
+            >
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
                 className="services-image13"
               />
-            </button>
+            </a>
           </div>
         </div>
       </div>

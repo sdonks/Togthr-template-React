@@ -25,17 +25,17 @@ const NavigationLinks1 = (props) => {
 }
 
 NavigationLinks1.defaultProps = {
-  text: 'Home',
-  text3: 'Cotnact',
   text1: 'Work',
+  text: 'Home',
+  text3: 'Contact',
   rootClassName: '',
   text2: 'Services',
 }
 
 NavigationLinks1.propTypes = {
+  text1: PropTypes.string,
   text: PropTypes.string,
   text3: PropTypes.string,
-  text1: PropTypes.string,
   rootClassName: PropTypes.string,
   text2: PropTypes.string,
 }

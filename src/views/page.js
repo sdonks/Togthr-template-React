@@ -1224,35 +1224,31 @@ new BlazeSlider(el, {
         <div className="page-content27">
           <div className="page-main">
             <div className="page-branding1">
-              <img
-                alt="image"
-                src="/playground_assets/logo.svg"
-                className="page-image12"
-              />
-              <span className="page-text099">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
+              <Link to="/" className="page-navlink">
+                <img
+                  alt="image"
+                  src="https://i.imgur.com/h00gRM7.png"
+                  className="page-image12"
                 />
+              </Link>
+              <span className="page-text099">
+                Available world-wide, at any time.
               </span>
             </div>
             <div className="page-links">
               <div className="page-column2">
                 <span className="page-header30">Company</span>
                 <div className="page-list">
-                  <Link to="/" className="page-navlink">
+                  <Link to="/" className="page-navlink01">
                     About
                   </Link>
-                  <Link to="/" className="page-navlink01">
+                  <Link to="/" className="page-navlink02">
                     Services
                   </Link>
-                  <Link to="/" className="page-navlink02">
+                  <Link to="/" className="page-navlink03">
                     How
                   </Link>
-                  <Link to="/" className="page-navlink03">
+                  <Link to="/" className="page-navlink04">
                     <span className="page-text100">Why</span>
                     <br></br>
                   </Link>
@@ -1261,25 +1257,25 @@ new BlazeSlider(el, {
               <div className="page-column3">
                 <span className="page-header31">Extern</span>
                 <div className="page-list1">
-                  <Link to="/" className="page-navlink04">
+                  <Link to="/" className="page-navlink05">
                     News
                   </Link>
-                  <Link to="/" className="page-navlink05">
+                  <Link to="/" className="page-navlink06">
                     Articles
                   </Link>
-                  <Link to="/" className="page-navlink06">
+                  <Link to="/" className="page-navlink07">
                     Blog
                   </Link>
-                  <Link to="/" className="page-navlink07">
+                  <Link to="/" className="page-navlink08">
                     Privacy
                   </Link>
-                  <Link to="/" className="page-navlink08">
+                  <Link to="/" className="page-navlink09">
                     Terms
                   </Link>
-                  <Link to="/" className="page-navlink09">
+                  <Link to="/" className="page-navlink10">
                     Legal
                   </Link>
-                  <Link to="/" className="page-navlink10">
+                  <Link to="/" className="page-navlink11">
                     Press
                   </Link>
                 </div>
@@ -1287,19 +1283,19 @@ new BlazeSlider(el, {
               <div className="page-column4">
                 <span className="page-header32">Social</span>
                 <div className="page-list2">
-                  <Link to="/" className="page-navlink11">
+                  <Link to="/" className="page-navlink12">
                     LinkedIn
                   </Link>
-                  <Link to="/" className="page-navlink12">
+                  <Link to="/" className="page-navlink13">
                     Twitter
                   </Link>
-                  <Link to="/" className="page-navlink13">
+                  <Link to="/" className="page-navlink14">
                     Instagram
                   </Link>
-                  <Link to="/" className="page-navlink14">
+                  <Link to="/" className="page-navlink15">
                     Facebook
                   </Link>
-                  <Link to="/" className="page-navlink15">
+                  <Link to="/" className="page-navlink16">
                     TikTok
                   </Link>
                 </div>
@@ -1310,13 +1306,17 @@ new BlazeSlider(el, {
             <span className="page-text102">
               © 2023 MOVIEW | Stefan Doncean - All rights reserved
             </span>
-            <button data-role="scroll-top" className="page-button5 button">
+            <a
+              href="#header"
+              data-role="scroll-top"
+              className="page-link2 button"
+            >
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
                 className="page-image13"
               />
-            </button>
+            </a>
           </div>
         </div>
       </div>

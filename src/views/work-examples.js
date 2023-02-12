@@ -39,7 +39,7 @@ const WorkExamples = (props) => {
           className="work-examples-image"
         />
         <div className="work-examples-nav">
-          <NavigationLinks1 rootClassName="rootClassName10"></NavigationLinks1>
+          <NavigationLinks1 rootClassName="rootClassName22"></NavigationLinks1>
         </div>
         <div data-role="BurgerMenu" className="work-examples-burger-menu">
           <svg viewBox="0 0 1024 1024" className="work-examples-icon">
@@ -63,7 +63,7 @@ const WorkExamples = (props) => {
                 </svg>
               </div>
             </div>
-            <NavigationLinks1 rootClassName="rootClassName11"></NavigationLinks1>
+            <NavigationLinks1 rootClassName="rootClassName23"></NavigationLinks1>
           </div>
           <div>
             <svg
@@ -1278,35 +1278,31 @@ new BlazeSlider(el, {
         <div className="work-examples-content27">
           <div className="work-examples-main">
             <div className="work-examples-branding1">
-              <img
-                alt="image"
-                src="/playground_assets/logo.svg"
-                className="work-examples-image12"
-              />
-              <span className="work-examples-text099">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
+              <Link to="/" className="work-examples-navlink">
+                <img
+                  alt="image"
+                  src="https://i.imgur.com/h00gRM7.png"
+                  className="work-examples-image12"
                 />
+              </Link>
+              <span className="work-examples-text099">
+                Available world-wide, at any time.
               </span>
             </div>
             <div className="work-examples-links">
               <div className="work-examples-column2">
                 <span className="work-examples-header30">Company</span>
                 <div className="work-examples-list">
-                  <Link to="/" className="work-examples-navlink">
+                  <Link to="/" className="work-examples-navlink01">
                     About
                   </Link>
-                  <Link to="/" className="work-examples-navlink01">
+                  <Link to="/" className="work-examples-navlink02">
                     Services
                   </Link>
-                  <Link to="/" className="work-examples-navlink02">
+                  <Link to="/" className="work-examples-navlink03">
                     How
                   </Link>
-                  <Link to="/" className="work-examples-navlink03">
+                  <Link to="/" className="work-examples-navlink04">
                     <span className="work-examples-text100">Why</span>
                     <br></br>
                   </Link>
@@ -1315,25 +1311,25 @@ new BlazeSlider(el, {
               <div className="work-examples-column3">
                 <span className="work-examples-header31">Extern</span>
                 <div className="work-examples-list1">
-                  <Link to="/" className="work-examples-navlink04">
+                  <Link to="/" className="work-examples-navlink05">
                     News
                   </Link>
-                  <Link to="/" className="work-examples-navlink05">
+                  <Link to="/" className="work-examples-navlink06">
                     Articles
                   </Link>
-                  <Link to="/" className="work-examples-navlink06">
+                  <Link to="/" className="work-examples-navlink07">
                     Blog
                   </Link>
-                  <Link to="/" className="work-examples-navlink07">
+                  <Link to="/" className="work-examples-navlink08">
                     Privacy
                   </Link>
-                  <Link to="/" className="work-examples-navlink08">
+                  <Link to="/" className="work-examples-navlink09">
                     Terms
                   </Link>
-                  <Link to="/" className="work-examples-navlink09">
+                  <Link to="/" className="work-examples-navlink10">
                     Legal
                   </Link>
-                  <Link to="/" className="work-examples-navlink10">
+                  <Link to="/" className="work-examples-navlink11">
                     Press
                   </Link>
                 </div>
@@ -1341,19 +1337,19 @@ new BlazeSlider(el, {
               <div className="work-examples-column4">
                 <span className="work-examples-header32">Social</span>
                 <div className="work-examples-list2">
-                  <Link to="/" className="work-examples-navlink11">
+                  <Link to="/" className="work-examples-navlink12">
                     LinkedIn
                   </Link>
-                  <Link to="/" className="work-examples-navlink12">
+                  <Link to="/" className="work-examples-navlink13">
                     Twitter
                   </Link>
-                  <Link to="/" className="work-examples-navlink13">
+                  <Link to="/" className="work-examples-navlink14">
                     Instagram
                   </Link>
-                  <Link to="/" className="work-examples-navlink14">
+                  <Link to="/" className="work-examples-navlink15">
                     Facebook
                   </Link>
-                  <Link to="/" className="work-examples-navlink15">
+                  <Link to="/" className="work-examples-navlink16">
                     TikTok
                   </Link>
                 </div>
@@ -1364,16 +1360,17 @@ new BlazeSlider(el, {
             <span className="work-examples-text102">
               © 2023 MOVIEW | Stefan Doncean - All rights reserved
             </span>
-            <button
+            <a
+              href="#header"
               data-role="scroll-top"
-              className="work-examples-button5 button"
+              className="work-examples-link2 button"
             >
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
                 className="work-examples-image13"
               />
-            </button>
+            </a>
           </div>
         </div>
       </div>
