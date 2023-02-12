@@ -7,6 +7,7 @@ import Contact from './views/contact'
 import WorkExamples from './views/work-examples'
 import Home from './views/home'
 import Page from './views/page'
+import Services from './views/services'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route component={WorkExamples} exact path="/work-examples" />
         <Route component={Home} exact path="/" />
         <Route component={Page} exact path="/page" />
+        <Route component={Services} exact path="/services" />
       </div>
     </Router>
   )

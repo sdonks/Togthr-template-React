@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import DangerousHTML from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
-import NavigationLinks from '../components/navigation-links'
 import Check from '../components/check'
 import Line from '../components/line'
 import IconContainer from '../components/icon-container'
@@ -48,9 +47,7 @@ const Contact = (props) => {
             src="https://i.imgur.com/h00gRM7.png"
             className="contact-image"
           />
-          <div className="contact-nav">
-            <NavigationLinks rootClassName="rootClassName12"></NavigationLinks>
-          </div>
+          <div className="contact-nav"></div>
           <div className="contact-btn-group">
             <button className="contact-login button">Login</button>
             <button className="button">Register</button>
@@ -74,7 +71,6 @@ const Contact = (props) => {
                   </svg>
                 </div>
               </div>
-              <NavigationLinks rootClassName="rootClassName13"></NavigationLinks>
             </div>
             <div>
               <svg

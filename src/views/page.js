@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import DangerousHTML from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
-import NavigationLinks from '../components/navigation-links'
 import Check from '../components/check'
 import Line from '../components/line'
 import IconContainer from '../components/icon-container'
@@ -48,9 +47,7 @@ const Page = (props) => {
             src="https://i.imgur.com/h00gRM7.png"
             className="page-image"
           />
-          <div className="page-nav">
-            <NavigationLinks rootClassName="rootClassName8"></NavigationLinks>
-          </div>
+          <div className="page-nav"></div>
           <div className="page-btn-group">
             <button className="page-login button">Login</button>
             <button className="button">Register</button>
@@ -74,7 +71,6 @@ const Page = (props) => {
                   </svg>
                 </div>
               </div>
-              <NavigationLinks rootClassName="rootClassName9"></NavigationLinks>
             </div>
             <div>
               <svg viewBox="0 0 950.8571428571428 1024" className="page-icon04">
