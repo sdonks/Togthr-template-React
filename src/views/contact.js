@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import DangerousHTML from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
+import NavigationLinks1 from '../components/navigation-links1'
 import Check from '../components/check'
 import Line from '../components/line'
 import IconContainer from '../components/icon-container'
@@ -31,6 +32,58 @@ const Contact = (props) => {
           content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c9633093-04cb-4556-8e46-92b7b60210b3/9bb2f2ab-731f-46a4-b829-5ff2c4bc55bc?org_if_sml=1"
         />
       </Helmet>
+      <header data-role="Header" className="contact-header">
+        <img
+          alt="logo"
+          src="https://i.imgur.com/h00gRM7.png"
+          className="contact-image"
+        />
+        <div className="contact-nav">
+          <NavigationLinks1 rootClassName="rootClassName18"></NavigationLinks1>
+        </div>
+        <div data-role="BurgerMenu" className="contact-burger-menu">
+          <svg viewBox="0 0 1024 1024" className="contact-icon">
+            <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+          </svg>
+        </div>
+        <div data-role="MobileMenu" className="contact-mobile-menu">
+          <div className="contact-nav1">
+            <div className="contact-container1">
+              <img
+                alt="image"
+                src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+                className="contact-image01"
+              />
+              <div data-role="CloseMobileMenu" className="contact-menu-close">
+                <svg viewBox="0 0 1024 1024" className="contact-icon02">
+                  <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                </svg>
+              </div>
+            </div>
+            <NavigationLinks1 rootClassName="rootClassName19"></NavigationLinks1>
+          </div>
+          <div>
+            <svg
+              viewBox="0 0 950.8571428571428 1024"
+              className="contact-icon04"
+            >
+              <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
+            </svg>
+            <svg
+              viewBox="0 0 877.7142857142857 1024"
+              className="contact-icon06"
+            >
+              <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+            </svg>
+            <svg
+              viewBox="0 0 602.2582857142856 1024"
+              className="contact-icon08"
+            >
+              <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
+            </svg>
+          </div>
+        </div>
+      </header>
       <section className="contact-hero">
         <video
           loop
@@ -41,32 +94,35 @@ const Contact = (props) => {
           playsInline
           className="contact-video"
         ></video>
-        <header data-role="Header" className="contact-header">
+        <header data-role="Header" className="contact-header01">
           <img
             alt="logo"
             src="https://i.imgur.com/h00gRM7.png"
-            className="contact-image"
+            className="contact-image02"
           />
-          <div className="contact-nav"></div>
+          <div className="contact-nav2"></div>
           <div className="contact-btn-group">
             <button className="contact-login button">Login</button>
             <button className="button">Register</button>
           </div>
-          <div data-role="BurgerMenu" className="contact-burger-menu">
-            <svg viewBox="0 0 1024 1024" className="contact-icon">
+          <div data-role="BurgerMenu" className="contact-burger-menu1">
+            <svg viewBox="0 0 1024 1024" className="contact-icon10">
               <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
             </svg>
           </div>
-          <div data-role="MobileMenu" className="contact-mobile-menu">
-            <div className="contact-nav1">
-              <div className="contact-container1">
+          <div data-role="MobileMenu" className="contact-mobile-menu1">
+            <div className="contact-nav3">
+              <div className="contact-container2">
                 <img
                   alt="image"
                   src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                  className="contact-image01"
+                  className="contact-image03"
                 />
-                <div data-role="CloseMobileMenu" className="contact-menu-close">
-                  <svg viewBox="0 0 1024 1024" className="contact-icon02">
+                <div
+                  data-role="CloseMobileMenu"
+                  className="contact-menu-close1"
+                >
+                  <svg viewBox="0 0 1024 1024" className="contact-icon12">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                   </svg>
                 </div>
@@ -75,19 +131,19 @@ const Contact = (props) => {
             <div>
               <svg
                 viewBox="0 0 950.8571428571428 1024"
-                className="contact-icon04"
+                className="contact-icon14"
               >
                 <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
               </svg>
               <svg
                 viewBox="0 0 877.7142857142857 1024"
-                className="contact-icon06"
+                className="contact-icon16"
               >
                 <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
               </svg>
               <svg
                 viewBox="0 0 602.2582857142856 1024"
-                className="contact-icon08"
+                className="contact-icon18"
               >
                 <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
               </svg>
@@ -100,29 +156,29 @@ const Contact = (props) => {
             src="https://i.imgur.com/h00gRM7.png"
             className="contact-branding"
           />
-          <div data-thq="thq-burger-menu" className="contact-burger-menu1">
+          <div data-thq="thq-burger-menu" className="contact-burger-menu2">
             <div className="contact-hamburger">
               <img
                 alt="image"
                 src="/playground_assets/hamburger.svg"
-                className="contact-icon10"
+                className="contact-icon20"
               />
             </div>
           </div>
-          <div data-thq="thq-mobile-menu" className="contact-mobile-menu1">
+          <div data-thq="thq-mobile-menu" className="contact-mobile-menu2">
             <div
               data-thq="thq-mobile-menu-nav"
               data-role="Nav"
-              className="contact-nav2"
+              className="contact-nav4"
             >
-              <div className="contact-container2">
+              <div className="contact-container3">
                 <img
                   alt="image"
                   src="/playground_assets/logo.svg"
-                  className="contact-image02"
+                  className="contact-image04"
                 />
-                <div data-thq="thq-close-menu" className="contact-menu-close1">
-                  <svg viewBox="0 0 1024 1024" className="contact-icon11">
+                <div data-thq="thq-close-menu" className="contact-menu-close2">
+                  <svg viewBox="0 0 1024 1024" className="contact-icon21">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                   </svg>
                 </div>
@@ -130,7 +186,7 @@ const Contact = (props) => {
               <nav
                 data-thq="thq-mobile-menu-nav-links"
                 data-role="Nav"
-                className="contact-nav3"
+                className="contact-nav5"
               >
                 <span className="contact-text">About</span>
                 <span className="contact-text001">Features</span>
@@ -138,27 +194,27 @@ const Contact = (props) => {
                 <span className="contact-text003">Team</span>
                 <span className="contact-text004">Blog</span>
               </nav>
-              <div className="contact-container3">
+              <div className="contact-container4">
                 <button className="contact-login1 button">Login</button>
                 <button className="button">Register</button>
               </div>
             </div>
-            <div className="contact-icon-group1">
+            <div className="contact-icon-group2">
               <svg
                 viewBox="0 0 950.8571428571428 1024"
-                className="contact-icon13"
+                className="contact-icon23"
               >
                 <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
               </svg>
               <svg
                 viewBox="0 0 877.7142857142857 1024"
-                className="contact-icon15"
+                className="contact-icon25"
               >
                 <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
               </svg>
               <svg
                 viewBox="0 0 602.2582857142856 1024"
-                className="contact-icon17"
+                className="contact-icon27"
               >
                 <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
               </svg>
@@ -167,7 +223,7 @@ const Contact = (props) => {
         </header>
         <div className="contact-hero-content">
           <div className="contact-header-container">
-            <div className="contact-header01">
+            <div className="contact-header02">
               <h1 className="contact-heading">
                 <span>
                   Face-to-face with
@@ -212,7 +268,7 @@ const Contact = (props) => {
         </h2>
       </section>
       <section className="contact-slider">
-        <div className="contact-header02">
+        <div className="contact-header03">
           <h2 className="contact-heading01">
             <span>
               From nothing to
@@ -261,13 +317,13 @@ const Contact = (props) => {
       <section className="contact-statistics">
         <div className="contact-content">
           <div className="contact-stat">
-            <h3 className="contact-header03">Ultra-fast turnaround</h3>
+            <h3 className="contact-header04">Ultra-fast turnaround</h3>
           </div>
           <div className="contact-stat1">
-            <h3 className="contact-header04">Stress-free experience</h3>
+            <h3 className="contact-header05">Stress-free experience</h3>
           </div>
           <div className="contact-stat2">
-            <h3 className="contact-header05">Trusted service</h3>
+            <h3 className="contact-header06">Trusted service</h3>
           </div>
         </div>
       </section>
@@ -280,10 +336,10 @@ const Contact = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/slider-ecosystems-400h.png"
-                    className="contact-image03"
+                    className="contact-image05"
                   />
                   <div className="contact-content01">
-                    <div className="contact-header06">
+                    <div className="contact-header07">
                       <h3 className="contact-heading02">Metaverse</h3>
                       <p className="contact-caption03">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -298,7 +354,7 @@ const Contact = (props) => {
                     </div>
                     <div className="contact-more">
                       <span className="contact-caption04">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="contact-icon19">
+                      <svg viewBox="0 0 1024 1024" className="contact-icon29">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -308,10 +364,10 @@ const Contact = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/slider-ecosystems-400h.png"
-                    className="contact-image04"
+                    className="contact-image06"
                   />
                   <div className="contact-content02">
-                    <div className="contact-header07">
+                    <div className="contact-header08">
                       <h3 className="contact-heading03">Ecosystems</h3>
                       <p className="contact-caption05">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -326,7 +382,7 @@ const Contact = (props) => {
                     </div>
                     <div className="contact-more1">
                       <span className="contact-caption06">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="contact-icon21">
+                      <svg viewBox="0 0 1024 1024" className="contact-icon31">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -336,10 +392,10 @@ const Contact = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/slider-ecosystems-400h.png"
-                    className="contact-image05"
+                    className="contact-image07"
                   />
                   <div className="contact-content03">
-                    <div className="contact-header08">
+                    <div className="contact-header09">
                       <h3 className="contact-heading04">Development</h3>
                       <p className="contact-caption07">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -354,7 +410,7 @@ const Contact = (props) => {
                     </div>
                     <div className="contact-more2">
                       <span className="contact-caption08">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="contact-icon23">
+                      <svg viewBox="0 0 1024 1024" className="contact-icon33">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -364,10 +420,10 @@ const Contact = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/slider-ecosystems-400h.png"
-                    className="contact-image06"
+                    className="contact-image08"
                   />
                   <div className="contact-content04">
-                    <div className="contact-header09">
+                    <div className="contact-header10">
                       <h3 className="contact-heading05">Integration</h3>
                       <p className="contact-caption09">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -382,7 +438,7 @@ const Contact = (props) => {
                     </div>
                     <div className="contact-more3">
                       <span className="contact-caption10">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="contact-icon25">
+                      <svg viewBox="0 0 1024 1024" className="contact-icon35">
                         <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                       </svg>
                     </div>
@@ -395,7 +451,7 @@ const Contact = (props) => {
                 data-role="previous-banner-button"
                 className="contact-previous blaze-prev button"
               >
-                <svg viewBox="0 0 1024 1024" className="contact-icon27">
+                <svg viewBox="0 0 1024 1024" className="contact-icon37">
                   <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
                 </svg>
               </button>
@@ -403,7 +459,7 @@ const Contact = (props) => {
                 data-role="next-banner-button"
                 className="contact-next blaze-next button"
               >
-                <svg viewBox="0 0 1024 1024" className="contact-icon29">
+                <svg viewBox="0 0 1024 1024" className="contact-icon39">
                   <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                 </svg>
               </button>
@@ -429,7 +485,7 @@ new BlazeSlider(el, {
       </section>
       <section className="contact-get-started">
         <div className="contact-header-container1">
-          <div className="contact-header10">
+          <div className="contact-header11">
             <h2 className="contact-heading06">
               Moview is the home to our Video Production company where we create
               stunning visual content to ensure brands stand out and get
@@ -455,7 +511,7 @@ new BlazeSlider(el, {
         <img
           alt="image"
           src="https://i.imgur.com/S0nMdGY.jpg"
-          className="contact-image07"
+          className="contact-image09"
         />
       </section>
       <h2 className="contact-heading07">
@@ -539,8 +595,8 @@ new BlazeSlider(el, {
       </section>
       <section className="contact-growth">
         <div className="contact-content06">
-          <div className="contact-header11">
-            <div className="contact-header12">
+          <div className="contact-header12">
+            <div className="contact-header13">
               <h2 className="contact-heading08">
                 We guarantee you&apos;ll love your video or your money back*.
               </h2>
@@ -577,7 +633,7 @@ new BlazeSlider(el, {
                 <img
                   alt="image"
                   src="https://i.imgur.com/0Lpv0Xc.jpg"
-                  className="contact-icon31"
+                  className="contact-icon41"
                 />
                 <span className="contact-name">Tea Visan</span>
               </div>
@@ -601,7 +657,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="https://i.imgur.com/ubsnns9.jpg"
-            className="contact-image08"
+            className="contact-image10"
           />
         </div>
       </section>
@@ -611,13 +667,13 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="https://i.imgur.com/p0gMEgQ.jpg"
-            className="contact-image09"
+            className="contact-image11"
           />
         </div>
         <div className="contact-content08">
-          <div className="contact-header13">
+          <div className="contact-header14">
             <div className="contact-header-container2">
-              <div className="contact-header14">
+              <div className="contact-header15">
                 <h2 className="contact-heading09">
                   A trusted service every time.
                 </h2>
@@ -631,7 +687,7 @@ new BlazeSlider(el, {
             <div className="contact-checkmarks">
               <div className="contact-check">
                 <div className="contact-mark">
-                  <svg viewBox="0 0 1024 1024" className="contact-icon32">
+                  <svg viewBox="0 0 1024 1024" className="contact-icon42">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -641,7 +697,7 @@ new BlazeSlider(el, {
               </div>
               <div className="contact-check1">
                 <div className="contact-mark1">
-                  <svg viewBox="0 0 1024 1024" className="contact-icon34">
+                  <svg viewBox="0 0 1024 1024" className="contact-icon44">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -651,7 +707,7 @@ new BlazeSlider(el, {
               </div>
               <div className="contact-check2">
                 <div className="contact-mark2">
-                  <svg viewBox="0 0 1024 1024" className="contact-icon36">
+                  <svg viewBox="0 0 1024 1024" className="contact-icon46">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -661,7 +717,7 @@ new BlazeSlider(el, {
               </div>
               <div className="contact-check3">
                 <div className="contact-mark3">
-                  <svg viewBox="0 0 1024 1024" className="contact-icon38">
+                  <svg viewBox="0 0 1024 1024" className="contact-icon48">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -703,7 +759,7 @@ new BlazeSlider(el, {
       </section>
       <section className="contact-create">
         <div className="contact-content10">
-          <div className="contact-header15">
+          <div className="contact-header16">
             <h2 className="contact-heading10">
               <span>Outstanding </span>
               <span className="contact-text063">visual content!</span>
@@ -727,7 +783,7 @@ new BlazeSlider(el, {
       </section>
       <section className="contact-comparision">
         <div className="contact-header-container3">
-          <div className="contact-header16">
+          <div className="contact-header17">
             <h2 className="contact-heading11">
               <span>Packages we offer</span>
               <br></br>
@@ -895,7 +951,7 @@ new BlazeSlider(el, {
       </section>
       <section className="contact-data">
         <div className="contact-header-container4">
-          <div className="contact-header17">
+          <div className="contact-header18">
             <div className="contact-row16">
               <h2 className="contact-heading12">
                 <span>
@@ -925,17 +981,17 @@ new BlazeSlider(el, {
           </p>
         </div>
         <div className="contact-content11">
-          <div className="contact-image10">
+          <div className="contact-image12">
             <img
               alt="image"
               src="https://i.imgur.com/hjx4j7N.jpg"
-              className="contact-image11"
+              className="contact-image13"
             />
           </div>
           <div className="contact-accordion">
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="contact-header18">Our studio</h3>
+                <h3 className="contact-header19">Our studio</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -952,7 +1008,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="contact-header19">Our prices</h3>
+                <h3 className="contact-header20">Our prices</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -969,7 +1025,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="contact-header20">Photography</h3>
+                <h3 className="contact-header21">Photography</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -986,7 +1042,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="contact-header21">Promotional videos</h3>
+                <h3 className="contact-header22">Promotional videos</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -1059,7 +1115,7 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="contact-customer">
-        <div className="contact-header22"></div>
+        <div className="contact-header23"></div>
         <div className="contact-quotes">
           <div className="contact-quote">
             <p className="contact-quote1">
@@ -1132,12 +1188,12 @@ new BlazeSlider(el, {
         </div>
         <div className="contact-controls1">
           <button className="contact-previous1 button">
-            <svg viewBox="0 0 1024 1024" className="contact-icon40">
+            <svg viewBox="0 0 1024 1024" className="contact-icon50">
               <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
             </svg>
           </button>
           <button className="contact-next1 button">
-            <svg viewBox="0 0 1024 1024" className="contact-icon42">
+            <svg viewBox="0 0 1024 1024" className="contact-icon52">
               <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
             </svg>
           </button>
@@ -1150,7 +1206,7 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="contact-f-a-q">
-        <div className="contact-header23">
+        <div className="contact-header24">
           <h2 className="contact-heading13">
             <span>Frequently asked </span>
             <span className="contact-text097">questions</span>
@@ -1166,7 +1222,7 @@ new BlazeSlider(el, {
         <div className="contact-content20">
           <div className="contact-column">
             <div className="contact-element04">
-              <h3 className="contact-header24">
+              <h3 className="contact-header25">
                 Lorem ipsum dolor sit ametetur elit?
               </h3>
               <p className="contact-content21">
@@ -1180,7 +1236,7 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="contact-element05">
-              <h3 className="contact-header25">
+              <h3 className="contact-header26">
                 Excepteur sint occaecat cupidatat non sunt in culpa qui officia
                 deserunt mollit anim id est laborum?
               </h3>
@@ -1192,7 +1248,7 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="contact-element06">
-              <h3 className="contact-header26">
+              <h3 className="contact-header27">
                 Tempor incididunt ut labore et dolore magna aliquat enim ad
                 minim?
               </h3>
@@ -1207,7 +1263,7 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-column1">
             <div className="contact-element07">
-              <h3 className="contact-header27">
+              <h3 className="contact-header28">
                 Tempor incididunt ut labore et dolore magna aliquat enim ad
                 minim?
               </h3>
@@ -1220,7 +1276,7 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="contact-element08">
-              <h3 className="contact-header28">
+              <h3 className="contact-header29">
                 Lorem ipsum dolor sit ametetur elit?
               </h3>
               <p className="contact-content25">
@@ -1234,7 +1290,7 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="contact-element09">
-              <h3 className="contact-header29">
+              <h3 className="contact-header30">
                 Incididunt ut labore et dolore?
               </h3>
               <p className="contact-content26">
@@ -1257,7 +1313,7 @@ new BlazeSlider(el, {
               <img
                 alt="image"
                 src="/playground_assets/logo.svg"
-                className="contact-image12"
+                className="contact-image14"
               />
               <span className="contact-text099">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -1271,7 +1327,7 @@ new BlazeSlider(el, {
             </div>
             <div className="contact-links">
               <div className="contact-column2">
-                <span className="contact-header30">Company</span>
+                <span className="contact-header31">Company</span>
                 <div className="contact-list">
                   <Link to="/" className="contact-navlink">
                     About
@@ -1289,7 +1345,7 @@ new BlazeSlider(el, {
                 </div>
               </div>
               <div className="contact-column3">
-                <span className="contact-header31">Extern</span>
+                <span className="contact-header32">Extern</span>
                 <div className="contact-list1">
                   <Link to="/" className="contact-navlink04">
                     News
@@ -1315,7 +1371,7 @@ new BlazeSlider(el, {
                 </div>
               </div>
               <div className="contact-column4">
-                <span className="contact-header32">Social</span>
+                <span className="contact-header33">Social</span>
                 <div className="contact-list2">
                   <Link to="/" className="contact-navlink11">
                     LinkedIn
@@ -1344,7 +1400,7 @@ new BlazeSlider(el, {
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
-                className="contact-image13"
+                className="contact-image15"
               />
             </button>
           </div>
