@@ -255,6 +255,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.contact-form {
+  width: 100%;
+  height: 917px;
+  display: flex;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 2.00%,rgb(0, 0, 0) 81.00%);
+}
 .contact-note {
   width: 100%;
   display: none;

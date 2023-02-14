@@ -8,6 +8,7 @@ import WorkExamples from './views/work-examples'
 import Home from './views/home'
 import Page from './views/page'
 import Services from './views/services'
+import Maintenance from './views/maintenance'
 
 const App = () => {
   return (
@@ -16,8 +17,9 @@ const App = () => {
         <Route component={Contact} exact path="/contact" />
         <Route component={WorkExamples} exact path="/work-examples" />
         <Route component={Home} exact path="/" />
-        <Route component={Page} exact path="/page" />
+        <Route component={Page} path="**" />
         <Route component={Services} exact path="/services" />
+        <Route component={Maintenance} exact path="/maintenance" />
       </div>
     </Router>
   )
