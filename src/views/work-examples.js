@@ -91,7 +91,7 @@ const WorkExamples = (props) => {
         <video
           loop
           muted
-          poster="https://i.imgur.com/fNaO2U2.jpg"
+          poster="https://i.imgur.com/5ZKeauT.jpg"
           preload="auto"
           autoPlay
           playsInline
@@ -223,68 +223,8 @@ const WorkExamples = (props) => {
           </span>
         </h2>
       </section>
-      <section className="work-examples-slider">
-        <div className="work-examples-header02">
-          <h2 className="work-examples-heading01">
-            <span>
-              From nothing to
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="work-examples-text016">something</span>
-            <span className="work-examples-text017">
-              .
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-          </h2>
-        </div>
-        <div className="work-examples-selector">
-          <p className="work-examples-caption02">
-            <span className="work-examples-text018">
-              The highest status people in human history are those that asked
-              for nothing and gave everything.
-            </span>
-            <br className="work-examples-text019"></br>
-            <br className="work-examples-text020"></br>
-          </p>
-          <div className="work-examples-slide-titles">
-            <div className="slide-title">
-              <span>Metaverse</span>
-            </div>
-            <div className="slide-title slide-title-active">
-              <span>Ecosystems</span>
-            </div>
-            <div className="slide-title">
-              <span>Development</span>
-            </div>
-            <div className="slide-title">
-              <span>Integration</span>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="work-examples-statistics">
-        <div className="work-examples-content">
-          <div className="work-examples-stat">
-            <h3 className="work-examples-header03">Ultra-fast turnaround</h3>
-          </div>
-          <div className="work-examples-stat1">
-            <h3 className="work-examples-header04">Stress-free experience</h3>
-          </div>
-          <div className="work-examples-stat2">
-            <h3 className="work-examples-header05">Trusted service</h3>
-          </div>
-        </div>
-      </section>
       <section className="work-examples-slides">
-        <div className="work-examples-slider1 slider blaze-slider">
+        <div className="work-examples-slider slider blaze-slider">
           <div className="work-examples-slider-container blaze-container">
             <div className="work-examples-slider-track-container blaze-track-container">
               <div className="work-examples-slider-track blaze-track">
@@ -294,10 +234,10 @@ const WorkExamples = (props) => {
                     src="/playground_assets/slider-ecosystems-400h.png"
                     className="work-examples-image03"
                   />
-                  <div className="work-examples-content01">
-                    <div className="work-examples-header06">
-                      <h3 className="work-examples-heading02">Metaverse</h3>
-                      <p className="work-examples-caption03">
+                  <div className="work-examples-content">
+                    <div className="work-examples-header02">
+                      <h3 className="work-examples-heading01">Metaverse</h3>
+                      <p className="work-examples-caption02">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
@@ -309,7 +249,7 @@ const WorkExamples = (props) => {
                       </p>
                     </div>
                     <div className="work-examples-more">
-                      <span className="work-examples-caption04">Read More</span>
+                      <span className="work-examples-caption03">Read More</span>
                       <svg
                         viewBox="0 0 1024 1024"
                         className="work-examples-icon19"
@@ -325,10 +265,10 @@ const WorkExamples = (props) => {
                     src="/playground_assets/slider-ecosystems-400h.png"
                     className="work-examples-image04"
                   />
-                  <div className="work-examples-content02">
-                    <div className="work-examples-header07">
-                      <h3 className="work-examples-heading03">Ecosystems</h3>
-                      <p className="work-examples-caption05">
+                  <div className="work-examples-content01">
+                    <div className="work-examples-header03">
+                      <h3 className="work-examples-heading02">Ecosystems</h3>
+                      <p className="work-examples-caption04">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
@@ -340,7 +280,7 @@ const WorkExamples = (props) => {
                       </p>
                     </div>
                     <div className="work-examples-more1">
-                      <span className="work-examples-caption06">Read More</span>
+                      <span className="work-examples-caption05">Read More</span>
                       <svg
                         viewBox="0 0 1024 1024"
                         className="work-examples-icon21"
@@ -356,10 +296,10 @@ const WorkExamples = (props) => {
                     src="/playground_assets/slider-ecosystems-400h.png"
                     className="work-examples-image05"
                   />
-                  <div className="work-examples-content03">
-                    <div className="work-examples-header08">
-                      <h3 className="work-examples-heading04">Development</h3>
-                      <p className="work-examples-caption07">
+                  <div className="work-examples-content02">
+                    <div className="work-examples-header04">
+                      <h3 className="work-examples-heading03">Development</h3>
+                      <p className="work-examples-caption06">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
@@ -371,7 +311,7 @@ const WorkExamples = (props) => {
                       </p>
                     </div>
                     <div className="work-examples-more2">
-                      <span className="work-examples-caption08">Read More</span>
+                      <span className="work-examples-caption07">Read More</span>
                       <svg
                         viewBox="0 0 1024 1024"
                         className="work-examples-icon23"
@@ -387,10 +327,10 @@ const WorkExamples = (props) => {
                     src="/playground_assets/slider-ecosystems-400h.png"
                     className="work-examples-image06"
                   />
-                  <div className="work-examples-content04">
-                    <div className="work-examples-header09">
-                      <h3 className="work-examples-heading05">Integration</h3>
-                      <p className="work-examples-caption09">
+                  <div className="work-examples-content03">
+                    <div className="work-examples-header05">
+                      <h3 className="work-examples-heading04">Integration</h3>
+                      <p className="work-examples-caption08">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
@@ -402,7 +342,7 @@ const WorkExamples = (props) => {
                       </p>
                     </div>
                     <div className="work-examples-more3">
-                      <span className="work-examples-caption10">Read More</span>
+                      <span className="work-examples-caption09">Read More</span>
                       <svg
                         viewBox="0 0 1024 1024"
                         className="work-examples-icon25"
@@ -451,15 +391,243 @@ new BlazeSlider(el, {
           ></DangerousHTML>
         </div>
       </section>
+      <section className="work-examples-slider1">
+        <div className="work-examples-header06">
+          <h2 className="work-examples-heading05">
+            <span>
+              From nothing to
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="work-examples-text016">something</span>
+            <span className="work-examples-text017">
+              .
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+          </h2>
+        </div>
+        <div className="work-examples-selector">
+          <p className="work-examples-caption10">
+            <span className="work-examples-text018">
+              The highest status people in human history are those that asked
+              for nothing and gave everything.
+            </span>
+            <br className="work-examples-text019"></br>
+            <br className="work-examples-text020"></br>
+          </p>
+          <div className="work-examples-slide-titles">
+            <div className="slide-title">
+              <span>Metaverse</span>
+            </div>
+            <div className="slide-title slide-title-active">
+              <span>Ecosystems</span>
+            </div>
+            <div className="slide-title">
+              <span>Development</span>
+            </div>
+            <div className="slide-title">
+              <span>Integration</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="work-examples-statistics">
+        <div className="work-examples-content04">
+          <div className="work-examples-stat">
+            <h3 className="work-examples-header07">Ultra-fast turnaround</h3>
+          </div>
+          <div className="work-examples-stat1">
+            <h3 className="work-examples-header08">Stress-free experience</h3>
+          </div>
+          <div className="work-examples-stat2">
+            <h3 className="work-examples-header09">Trusted service</h3>
+          </div>
+        </div>
+      </section>
+      <section className="work-examples-slides1">
+        <div className="work-examples-slider2 slider blaze-slider">
+          <div className="work-examples-slider-container1 blaze-container">
+            <div className="work-examples-slider-track-container1 blaze-track-container">
+              <div className="work-examples-slider-track1 blaze-track">
+                <div data-role="current-banner" className="banner">
+                  <img
+                    alt="image"
+                    src="/playground_assets/slider-ecosystems-400h.png"
+                    className="work-examples-image07"
+                  />
+                  <div className="work-examples-content05">
+                    <div className="work-examples-header10">
+                      <h3 className="work-examples-heading06">Metaverse</h3>
+                      <p className="work-examples-caption11">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </p>
+                    </div>
+                    <div className="work-examples-more4">
+                      <span className="work-examples-caption12">Read More</span>
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="work-examples-icon31"
+                      >
+                        <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div data-role="current-banner" className="banner">
+                  <img
+                    alt="image"
+                    src="/playground_assets/slider-ecosystems-400h.png"
+                    className="work-examples-image08"
+                  />
+                  <div className="work-examples-content06">
+                    <div className="work-examples-header11">
+                      <h3 className="work-examples-heading07">Ecosystems</h3>
+                      <p className="work-examples-caption13">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </p>
+                    </div>
+                    <div className="work-examples-more5">
+                      <span className="work-examples-caption14">Read More</span>
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="work-examples-icon33"
+                      >
+                        <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div data-role="current-banner" className="banner">
+                  <img
+                    alt="image"
+                    src="/playground_assets/slider-ecosystems-400h.png"
+                    className="work-examples-image09"
+                  />
+                  <div className="work-examples-content07">
+                    <div className="work-examples-header12">
+                      <h3 className="work-examples-heading08">Development</h3>
+                      <p className="work-examples-caption15">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </p>
+                    </div>
+                    <div className="work-examples-more6">
+                      <span className="work-examples-caption16">Read More</span>
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="work-examples-icon35"
+                      >
+                        <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div data-role="current-banner" className="banner">
+                  <img
+                    alt="image"
+                    src="/playground_assets/slider-ecosystems-400h.png"
+                    className="work-examples-image10"
+                  />
+                  <div className="work-examples-content08">
+                    <div className="work-examples-header13">
+                      <h3 className="work-examples-heading09">Integration</h3>
+                      <p className="work-examples-caption17">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </p>
+                    </div>
+                    <div className="work-examples-more7">
+                      <span className="work-examples-caption18">Read More</span>
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="work-examples-icon37"
+                      >
+                        <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="work-examples-controls1">
+              <button
+                data-role="previous-banner-button"
+                className="work-examples-previous1 blaze-prev button"
+              >
+                <svg viewBox="0 0 1024 1024" className="work-examples-icon39">
+                  <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
+                </svg>
+              </button>
+              <button
+                data-role="next-banner-button"
+                className="work-examples-next1 blaze-next button"
+              >
+                <svg viewBox="0 0 1024 1024" className="work-examples-icon41">
+                  <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <DangerousHTML
+            html={`<script>
+const el = document.querySelector('.blaze-slider')
+
+new BlazeSlider(el, {
+  all: {
+    slidesToShow: 3,
+    slideGap: '80px',
+    loop: true,
+    enableAutoplay: true,
+  },
+})
+</script>`}
+          ></DangerousHTML>
+        </div>
+      </section>
       <section className="work-examples-get-started">
         <div className="work-examples-header-container1">
-          <div className="work-examples-header10">
-            <h2 className="work-examples-heading06">
+          <div className="work-examples-header14">
+            <h2 className="work-examples-heading10">
               Moview is the home to our Video Production company where we create
               stunning visual content to ensure brands stand out and get
               noticed.
             </h2>
-            <p className="work-examples-caption11">
+            <p className="work-examples-caption19">
               Our focus on creative development and full-service video
               production ensures that every aspect of your video project is
               handled with care and precision.
@@ -479,10 +647,10 @@ new BlazeSlider(el, {
         <img
           alt="image"
           src="https://i.imgur.com/S0nMdGY.jpg"
-          className="work-examples-image07"
+          className="work-examples-image11"
         />
       </section>
-      <h2 className="work-examples-heading07">
+      <h2 className="work-examples-heading11">
         <span>
           Customer validation is an essential phase of the
           <span
@@ -495,7 +663,7 @@ new BlazeSlider(el, {
         <br></br>
       </h2>
       <section className="work-examples-objectives">
-        <div className="work-examples-content05">
+        <div className="work-examples-content09">
           <span className="work-examples-text029">Objectives</span>
           <div className="work-examples-objectives-list">
             <div className="objective">
@@ -562,14 +730,14 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="work-examples-growth">
-        <div className="work-examples-content06">
-          <div className="work-examples-header11">
-            <div className="work-examples-header12">
-              <h2 className="work-examples-heading08">
+        <div className="work-examples-content10">
+          <div className="work-examples-header15">
+            <div className="work-examples-header16">
+              <h2 className="work-examples-heading12">
                 We guarantee you&apos;ll love your video or your money back*.
               </h2>
             </div>
-            <p className="work-examples-caption12">
+            <p className="work-examples-caption20">
               <span className="work-examples-text047">
                 Investing in a new video for your business can be a big
                 decision, so to give you confidence, we created our satisfaction
@@ -588,7 +756,7 @@ new BlazeSlider(el, {
             </p>
           </div>
           <div className="work-examples-testimonial">
-            <div className="work-examples-content07">
+            <div className="work-examples-content11">
               <span className="work-examples-text054">Testimonial</span>
               <p className="work-examples-text055">
                 &quot;He knows all the right angles to shoot a precious moment!
@@ -601,7 +769,7 @@ new BlazeSlider(el, {
                 <img
                   alt="image"
                   src="https://i.imgur.com/0Lpv0Xc.jpg"
-                  className="work-examples-icon31"
+                  className="work-examples-icon43"
                 />
                 <span className="work-examples-name">Tea Visan</span>
               </div>
@@ -625,7 +793,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="https://i.imgur.com/ubsnns9.jpg"
-            className="work-examples-image08"
+            className="work-examples-image12"
           />
         </div>
       </section>
@@ -635,18 +803,18 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="https://i.imgur.com/p0gMEgQ.jpg"
-            className="work-examples-image09"
+            className="work-examples-image13"
           />
         </div>
-        <div className="work-examples-content08">
-          <div className="work-examples-header13">
+        <div className="work-examples-content12">
+          <div className="work-examples-header17">
             <div className="work-examples-header-container2">
-              <div className="work-examples-header14">
-                <h2 className="work-examples-heading09">
+              <div className="work-examples-header18">
+                <h2 className="work-examples-heading13">
                   A trusted service every time.
                 </h2>
               </div>
-              <p className="work-examples-caption13">
+              <p className="work-examples-caption21">
                 We’ve built strong and long-lasting client relationships by
                 working hard to combine creativity, excellent service delivery
                 and corporate experience.
@@ -655,7 +823,7 @@ new BlazeSlider(el, {
             <div className="work-examples-checkmarks">
               <div className="work-examples-check">
                 <div className="work-examples-mark">
-                  <svg viewBox="0 0 1024 1024" className="work-examples-icon32">
+                  <svg viewBox="0 0 1024 1024" className="work-examples-icon44">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -665,7 +833,7 @@ new BlazeSlider(el, {
               </div>
               <div className="work-examples-check1">
                 <div className="work-examples-mark1">
-                  <svg viewBox="0 0 1024 1024" className="work-examples-icon34">
+                  <svg viewBox="0 0 1024 1024" className="work-examples-icon46">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -675,7 +843,7 @@ new BlazeSlider(el, {
               </div>
               <div className="work-examples-check2">
                 <div className="work-examples-mark2">
-                  <svg viewBox="0 0 1024 1024" className="work-examples-icon36">
+                  <svg viewBox="0 0 1024 1024" className="work-examples-icon48">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -685,7 +853,7 @@ new BlazeSlider(el, {
               </div>
               <div className="work-examples-check3">
                 <div className="work-examples-mark3">
-                  <svg viewBox="0 0 1024 1024" className="work-examples-icon38">
+                  <svg viewBox="0 0 1024 1024" className="work-examples-icon50">
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
@@ -696,7 +864,7 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="work-examples-testimonial1">
-            <div className="work-examples-content09">
+            <div className="work-examples-content13">
               <span className="work-examples-text060">Testimonial</span>
               <p className="work-examples-text061">
                 &quot;A pleasant collaboration from all points of view! Positive
@@ -726,9 +894,9 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="work-examples-create">
-        <div className="work-examples-content10">
-          <div className="work-examples-header15">
-            <h2 className="work-examples-heading10">
+        <div className="work-examples-content14">
+          <div className="work-examples-header19">
+            <h2 className="work-examples-heading14">
               <span>Outstanding </span>
               <span className="work-examples-text063">visual content!</span>
               <span>
@@ -751,13 +919,13 @@ new BlazeSlider(el, {
       </section>
       <section className="work-examples-comparision">
         <div className="work-examples-header-container3">
-          <div className="work-examples-header16">
-            <h2 className="work-examples-heading11">
+          <div className="work-examples-header20">
+            <h2 className="work-examples-heading15">
               <span>Packages we offer</span>
               <br></br>
             </h2>
           </div>
-          <p className="work-examples-caption14">
+          <p className="work-examples-caption22">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
             eiusmod.
           </p>
@@ -919,9 +1087,9 @@ new BlazeSlider(el, {
       </section>
       <section className="work-examples-data">
         <div className="work-examples-header-container4">
-          <div className="work-examples-header17">
+          <div className="work-examples-header21">
             <div className="work-examples-row16">
-              <h2 className="work-examples-heading12">
+              <h2 className="work-examples-heading16">
                 <span>
                   Versatile Video Production for Diverse Business Needs.
                 </span>
@@ -929,7 +1097,7 @@ new BlazeSlider(el, {
               </h2>
             </div>
           </div>
-          <p className="work-examples-caption15">
+          <p className="work-examples-caption23">
             <span className="work-examples-text089">
               We make videos for all sorts of businesses for all sorts of
               reasons, from sharing a successful customer story, to an authentic
@@ -948,18 +1116,18 @@ new BlazeSlider(el, {
             </span>
           </p>
         </div>
-        <div className="work-examples-content11">
-          <div className="work-examples-image10">
+        <div className="work-examples-content15">
+          <div className="work-examples-image14">
             <img
               alt="image"
               src="https://i.imgur.com/hjx4j7N.jpg"
-              className="work-examples-image11"
+              className="work-examples-image15"
             />
           </div>
           <div className="work-examples-accordion">
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="work-examples-header18">Our studio</h3>
+                <h3 className="work-examples-header22">Our studio</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -976,7 +1144,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="work-examples-header19">Our prices</h3>
+                <h3 className="work-examples-header23">Our prices</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -993,7 +1161,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="work-examples-header20">Photography</h3>
+                <h3 className="work-examples-header24">Photography</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -1010,7 +1178,7 @@ new BlazeSlider(el, {
             </div>
             <div data-role="accordion-container" className="accordion">
               <div>
-                <h3 className="work-examples-header21">Promotional videos</h3>
+                <h3 className="work-examples-header25">Promotional videos</h3>
                 <p data-role="accordion-content" className="accordion-content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -1083,7 +1251,7 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="work-examples-customer">
-        <div className="work-examples-header22"></div>
+        <div className="work-examples-header26"></div>
         <div className="work-examples-quotes">
           <div className="work-examples-quote">
             <p className="work-examples-quote1">
@@ -1154,14 +1322,14 @@ new BlazeSlider(el, {
             </div>
           </div>
         </div>
-        <div className="work-examples-controls1">
-          <button className="work-examples-previous1 button">
-            <svg viewBox="0 0 1024 1024" className="work-examples-icon40">
+        <div className="work-examples-controls2">
+          <button className="work-examples-previous2 button">
+            <svg viewBox="0 0 1024 1024" className="work-examples-icon52">
               <path d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
             </svg>
           </button>
-          <button className="work-examples-next1 button">
-            <svg viewBox="0 0 1024 1024" className="work-examples-icon42">
+          <button className="work-examples-next2 button">
+            <svg viewBox="0 0 1024 1024" className="work-examples-icon54">
               <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
             </svg>
           </button>
@@ -1174,8 +1342,8 @@ new BlazeSlider(el, {
         </div>
       </section>
       <section className="work-examples-f-a-q">
-        <div className="work-examples-header23">
-          <h2 className="work-examples-heading13">
+        <div className="work-examples-header27">
+          <h2 className="work-examples-heading17">
             <span>Frequently asked </span>
             <span className="work-examples-text097">questions</span>
             <span>
@@ -1187,63 +1355,9 @@ new BlazeSlider(el, {
             </span>
           </h2>
         </div>
-        <div className="work-examples-content20">
+        <div className="work-examples-content24">
           <div className="work-examples-column">
             <div className="work-examples-element04">
-              <h3 className="work-examples-header24">
-                Lorem ipsum dolor sit ametetur elit?
-              </h3>
-              <p className="work-examples-content21">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
-            <div className="work-examples-element05">
-              <h3 className="work-examples-header25">
-                Excepteur sint occaecat cupidatat non sunt in culpa qui officia
-                deserunt mollit anim id est laborum?
-              </h3>
-              <p className="work-examples-content22">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
-              </p>
-            </div>
-            <div className="work-examples-element06">
-              <h3 className="work-examples-header26">
-                Tempor incididunt ut labore et dolore magna aliquat enim ad
-                minim?
-              </h3>
-              <p className="work-examples-content23">
-                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
-          </div>
-          <div className="work-examples-column1">
-            <div className="work-examples-element07">
-              <h3 className="work-examples-header27">
-                Tempor incididunt ut labore et dolore magna aliquat enim ad
-                minim?
-              </h3>
-              <p className="work-examples-content24">
-                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
-            <div className="work-examples-element08">
               <h3 className="work-examples-header28">
                 Lorem ipsum dolor sit ametetur elit?
               </h3>
@@ -1257,11 +1371,65 @@ new BlazeSlider(el, {
                 />
               </p>
             </div>
-            <div className="work-examples-element09">
+            <div className="work-examples-element05">
               <h3 className="work-examples-header29">
-                Incididunt ut labore et dolore?
+                Excepteur sint occaecat cupidatat non sunt in culpa qui officia
+                deserunt mollit anim id est laborum?
               </h3>
               <p className="work-examples-content26">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+            </div>
+            <div className="work-examples-element06">
+              <h3 className="work-examples-header30">
+                Tempor incididunt ut labore et dolore magna aliquat enim ad
+                minim?
+              </h3>
+              <p className="work-examples-content27">
+                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+          <div className="work-examples-column1">
+            <div className="work-examples-element07">
+              <h3 className="work-examples-header31">
+                Tempor incididunt ut labore et dolore magna aliquat enim ad
+                minim?
+              </h3>
+              <p className="work-examples-content28">
+                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div className="work-examples-element08">
+              <h3 className="work-examples-header32">
+                Lorem ipsum dolor sit ametetur elit?
+              </h3>
+              <p className="work-examples-content29">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </p>
+            </div>
+            <div className="work-examples-element09">
+              <h3 className="work-examples-header33">
+                Incididunt ut labore et dolore?
+              </h3>
+              <p className="work-examples-content30">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 <span
@@ -1275,14 +1443,14 @@ new BlazeSlider(el, {
         </div>
       </section>
       <div className="work-examples-footer">
-        <div className="work-examples-content27">
+        <div className="work-examples-content31">
           <div className="work-examples-main">
             <div className="work-examples-branding1">
               <Link to="/" className="work-examples-navlink">
                 <img
                   alt="image"
                   src="https://i.imgur.com/h00gRM7.png"
-                  className="work-examples-image12"
+                  className="work-examples-image16"
                 />
               </Link>
               <span className="work-examples-text099">
@@ -1291,7 +1459,7 @@ new BlazeSlider(el, {
             </div>
             <div className="work-examples-links">
               <div className="work-examples-column2">
-                <span className="work-examples-header30">Company</span>
+                <span className="work-examples-header34">Company</span>
                 <div className="work-examples-list">
                   <Link to="/" className="work-examples-navlink01">
                     About
@@ -1309,7 +1477,7 @@ new BlazeSlider(el, {
                 </div>
               </div>
               <div className="work-examples-column3">
-                <span className="work-examples-header31">Extern</span>
+                <span className="work-examples-header35">Extern</span>
                 <div className="work-examples-list1">
                   <Link to="/" className="work-examples-navlink05">
                     News
@@ -1335,7 +1503,7 @@ new BlazeSlider(el, {
                 </div>
               </div>
               <div className="work-examples-column4">
-                <span className="work-examples-header32">Social</span>
+                <span className="work-examples-header36">Social</span>
                 <div className="work-examples-list2">
                   <Link to="/" className="work-examples-navlink12">
                     LinkedIn
@@ -1368,7 +1536,7 @@ new BlazeSlider(el, {
               <img
                 alt="image"
                 src="/playground_assets/arrow.svg"
-                className="work-examples-image13"
+                className="work-examples-image17"
               />
             </a>
           </div>

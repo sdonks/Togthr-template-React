@@ -88,7 +88,6 @@ const Contact = (props) => {
         <video
           loop
           muted
-          poster="https://i.imgur.com/fNaO2U2.jpg"
           preload="auto"
           autoPlay
           playsInline
@@ -169,7 +168,6 @@ const Contact = (props) => {
           <div className="contact-header-container">
             <div className="contact-header01"></div>
           </div>
-          <form className="contact-form"></form>
         </div>
       </section>
       <section className="contact-note">
