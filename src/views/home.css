@@ -528,7 +528,7 @@
 }
 .home-slides {
   gap: var(--dl-space-space-fourunits);
-  display: flex;
+  display: none;
   overflow: hidden;
   position: relative;
   align-items: flex-start;
