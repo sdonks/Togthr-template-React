@@ -965,15 +965,11 @@ new BlazeSlider(el, {
               <div>
                 <h3 className="home-header19">Our studio</h3>
                 <p data-role="accordion-content" className="accordion-content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  With 2,200 square feet of space, we have everything you need
+                  to bring your video production to life. Our studio features a
+                  40ft. white screen and a 40ft. cyclorama green screen, perfect
+                  for all your shooting needs. We also offer LED panel lights
+                  and other equipment to ensure your videos look their best.
                 </p>
               </div>
               <IconContainer rootClassName="icon-container-root-class-name"></IconContainer>
@@ -982,15 +978,9 @@ new BlazeSlider(el, {
               <div>
                 <h3 className="home-header20">Our prices</h3>
                 <p data-role="accordion-content" className="accordion-content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  Our prices are variable depending on the project. We also
+                  offer fixed price monthly services if needed. Contact us for a
+                  more detailed estimate.
                 </p>
               </div>
               <IconContainer rootClassName="icon-container-root-class-name1"></IconContainer>
@@ -999,15 +989,14 @@ new BlazeSlider(el, {
               <div>
                 <h3 className="home-header21">Photography</h3>
                 <p data-role="accordion-content" className="accordion-content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  <span>
+                    We also offer Photography services for those looking for a
+                    complete media upgrade. They say a picture tells a thousand
+                    words, so why not tell your brand story with high-quality
+                    images!
+                  </span>
+                  <br></br>
+                  <br></br>
                 </p>
               </div>
               <IconContainer rootClassName="icon-container-root-class-name2"></IconContainer>
@@ -1016,15 +1005,20 @@ new BlazeSlider(el, {
               <div>
                 <h3 className="home-header22">Promotional videos</h3>
                 <p data-role="accordion-content" className="accordion-content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  <span>
+                    It’s a fact that high-quality video content increases
+                    credibility and consumer trust in brands. So our goal is to
+                    help elevate your brand, boost engagement and increase sales
+                    through our professional video productions.
+                  </span>
+                  <br></br>
+                  <span>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                 </p>
               </div>
               <IconContainer rootClassName="icon-container-root-class-name3"></IconContainer>
@@ -1181,7 +1175,7 @@ new BlazeSlider(el, {
         <div className="home-header24">
           <h2 className="home-heading13">
             <span>Frequently asked </span>
-            <span className="home-text096">questions</span>
+            <span className="home-text102">questions</span>
             <span>
               <span
                 dangerouslySetInnerHTML={{
@@ -1287,7 +1281,7 @@ new BlazeSlider(el, {
                   className="home-image15"
                 />
               </Link>
-              <span className="home-text098">
+              <span className="home-text104">
                 Available world-wide, at any time.
               </span>
             </div>
@@ -1305,7 +1299,7 @@ new BlazeSlider(el, {
                     How
                   </Link>
                   <Link to="/" className="home-navlink05">
-                    <span className="home-text099">Why</span>
+                    <span className="home-text105">Why</span>
                     <br></br>
                   </Link>
                 </div>
@@ -1359,7 +1353,7 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="home-bottom">
-            <span className="home-text101">
+            <span className="home-text107">
               © 2023 MOVIEW | Stefan Doncean - All rights reserved
             </span>
             <a

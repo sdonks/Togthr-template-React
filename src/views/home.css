@@ -528,10 +528,10 @@
 }
 .home-slides {
   gap: var(--dl-space-space-fourunits);
-  display: none;
+  display: flex;
   overflow: hidden;
   position: relative;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fiveunits);
 }
@@ -2182,7 +2182,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.home-text096 {
+.home-text102 {
   font-style: italic;
   font-family: Playfair Display;
   font-weight: 500;
@@ -2424,7 +2424,7 @@
   object-fit: cover;
   text-decoration: none;
 }
-.home-text098 {
+.home-text104 {
   color: rgb(124, 124, 128);
   line-height: 24px;
 }
@@ -2492,7 +2492,7 @@
 .home-navlink05:hover {
   opacity: .5;
 }
-.home-text099:hover {
+.home-text105:hover {
   opacity: .5;
 }
 .home-column3 {
@@ -2658,7 +2658,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text101 {
+.home-text107 {
   color: rgb(124, 124, 128);
   font-size: 14px;
   line-height: 21px;
