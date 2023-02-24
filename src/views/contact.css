@@ -24,6 +24,7 @@
 }
 .contact-image {
   height: 2rem;
+  align-self: center;
   text-decoration: none;
 }
 .contact-nav {
@@ -265,7 +266,7 @@
   text-align: center;
 }
 .contact-form {
-  width: 545px;
+  width: 50%;
   height: 525px;
   display: flex;
   align-self: center;
@@ -3760,6 +3761,9 @@
 @media(max-width: 479px) {
   .contact-header {
     padding: var(--dl-space-space-unit);
+  }
+  .contact-image {
+    align-self: center;
   }
   .contact-mobile-menu {
     padding: 16px;
