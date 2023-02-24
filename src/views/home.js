@@ -485,9 +485,14 @@ new BlazeSlider(el, {
             </p>
           </div>
           <div className="home-button">
-            <Link to="/work-examples" className="home-button1 button">
-              <span>Our work</span>
-            </Link>
+            <a
+              href="https://www.behance.net/stefandoncean"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-button1 button"
+            >
+              <span>View Some of our public work</span>
+            </a>
           </div>
         </div>
         <img

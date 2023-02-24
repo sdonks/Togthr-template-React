@@ -33,11 +33,13 @@ const Contact = (props) => {
         />
       </Helmet>
       <header data-role="Header" className="contact-header">
-        <img
-          alt="logo"
-          src="https://i.imgur.com/h00gRM7.png"
-          className="contact-image"
-        />
+        <Link to="/" className="contact-navlink">
+          <img
+            alt="logo"
+            src="https://i.imgur.com/h00gRM7.png"
+            className="contact-image"
+          />
+        </Link>
         <div className="contact-nav">
           <NavigationLinks1 rootClassName="rootClassName25"></NavigationLinks1>
         </div>
@@ -132,10 +134,10 @@ const Contact = (props) => {
                 className="contact-nav3"
               >
                 <span className="contact-text">About</span>
-                <span className="contact-text01">Features</span>
-                <span className="contact-text02">Pricing</span>
-                <span className="contact-text03">Team</span>
-                <span className="contact-text04">Blog</span>
+                <span className="contact-text001">Features</span>
+                <span className="contact-text002">Pricing</span>
+                <span className="contact-text003">Team</span>
+                <span className="contact-text004">Blog</span>
               </nav>
               <div className="contact-container3">
                 <button className="contact-login button">Login</button>
@@ -168,16 +170,49 @@ const Contact = (props) => {
           <div className="contact-header-container">
             <div className="contact-header01"></div>
           </div>
+          <h1 className="contact-text005">
+            <span>
+              Contact us by completeing this form.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br></br>
+            <span>We&apos;ll answer as soon as possible.</span>
+          </h1>
+          <form className="contact-form">
+            <input
+              type="text"
+              placeholder="Your Name"
+              name="Name"
+              className="contact-textinput input"
+            />
+            <input
+              type="text"
+              placeholder="Your Email"
+              name="Email"
+              className="contact-textinput1 input"
+            />
+            <input
+              type="text"
+              placeholder="Your Message"
+              name="Message"
+              className="contact-textinput2 input"
+            />
+            <button className="contact-button button">Send</button>
+          </form>
         </div>
       </section>
       <section className="contact-note">
         <h2 className="contact-caption">
-          <span className="contact-text05">
+          <span className="contact-text009">
             Get noticed with &quot;Scroll Stopping&quot; Video Content!
           </span>
           <br></br>
-          <br className="contact-text07"></br>
-          <span className="contact-text08">
+          <br className="contact-text011"></br>
+          <span className="contact-text012">
             Our diverse team has created engaging content for brands all over
             the world.
           </span>
@@ -194,8 +229,8 @@ const Contact = (props) => {
                 }}
               />
             </span>
-            <span className="contact-text10">something</span>
-            <span className="contact-text11">
+            <span className="contact-text014">something</span>
+            <span className="contact-text015">
               .
               <span
                 dangerouslySetInnerHTML={{
@@ -207,12 +242,12 @@ const Contact = (props) => {
         </div>
         <div className="contact-selector">
           <p className="contact-caption01">
-            <span className="contact-text12">
+            <span className="contact-text016">
               The highest status people in human history are those that asked
               for nothing and gave everything.
             </span>
-            <br className="contact-text13"></br>
-            <br className="contact-text14"></br>
+            <br className="contact-text017"></br>
+            <br className="contact-text018"></br>
           </p>
           <div className="contact-slide-titles">
             <div className="slide-title">
@@ -418,7 +453,7 @@ new BlazeSlider(el, {
               />
             </p>
           </div>
-          <div className="contact-button">
+          <div className="contact-button1">
             <button className="button">
               <span>Our work</span>
             </button>
@@ -439,23 +474,23 @@ new BlazeSlider(el, {
             }}
           />
         </span>
-        <span className="contact-text21">production process.</span>
+        <span className="contact-text025">production process.</span>
         <br></br>
       </h2>
       <section className="contact-objectives">
         <div className="contact-content05">
-          <span className="contact-text23">Objectives</span>
+          <span className="contact-text027">Objectives</span>
           <div className="contact-objectives-list">
             <div className="objective">
-              <h3 className="contact-text24">Dream it</h3>
-              <p className="contact-text25">
+              <h3 className="contact-text028">Dream it</h3>
+              <p className="contact-text029">
                 <span>
                   It all begins with an idea. Whatever it is, the way you tell
                   your story online can make all the difference to your brand
                   image and sales. We work with businesses to create the perfect
                   content for their audience to enhance their business.
                 </span>
-                <br className="contact-text27"></br>
+                <br className="contact-text031"></br>
                 <span>
                   <span
                     dangerouslySetInnerHTML={{
@@ -466,8 +501,8 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="objective contact-objective1">
-              <h3 className="contact-text29">Capture it</h3>
-              <p className="contact-text30">
+              <h3 className="contact-text033">Capture it</h3>
+              <p className="contact-text034">
                 <span>
                   Using the latest high-quality camera equipment our team will
                   deliver the smoothest production possible, giving you one less
@@ -475,7 +510,7 @@ new BlazeSlider(el, {
                   professionals will create the best possible content, on time
                   and on budget.
                 </span>
-                <br className="contact-text32"></br>
+                <br className="contact-text036"></br>
                 <br></br>
                 <span>
                   <span
@@ -487,15 +522,15 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="objective contact-objective2">
-              <h3 className="contact-text35">Create it</h3>
-              <p className="contact-text36">
+              <h3 className="contact-text039">Create it</h3>
+              <p className="contact-text040">
                 <span>
                   At our studio, we have an in-house editing team ready to work
                   on your project as soon as we finish filming. Meaning that
                   100% of projects are delivered on time, most in as little as 3
                   days.
                 </span>
-                <br className="contact-text38"></br>
+                <br className="contact-text042"></br>
                 <br></br>
                 <span>
                   <span
@@ -518,27 +553,27 @@ new BlazeSlider(el, {
               </h2>
             </div>
             <p className="contact-caption11">
-              <span className="contact-text41">
+              <span className="contact-text045">
                 Investing in a new video for your business can be a big
                 decision, so to give you confidence, we created our satisfaction
                 guarantee. It&apos;s simple and takes the stress away. No
                 catches, If you don&apos;t like the video and we can&apos;t
                 create a version you&apos;re happy with, you don&apos;t pay.
               </span>
-              <br className="contact-text42"></br>
-              <br className="contact-text43"></br>
-              <span className="contact-text44">
+              <br className="contact-text046"></br>
+              <br className="contact-text047"></br>
+              <span className="contact-text048">
                 *refund amount is noted on the contract.
               </span>
-              <br className="contact-text45"></br>
-              <br className="contact-text46"></br>
-              <br className="contact-text47"></br>
+              <br className="contact-text049"></br>
+              <br className="contact-text050"></br>
+              <br className="contact-text051"></br>
             </p>
           </div>
           <div className="contact-testimonial">
             <div className="contact-content07">
-              <span className="contact-text48">Testimonial</span>
-              <p className="contact-text49">
+              <span className="contact-text052">Testimonial</span>
+              <p className="contact-text053">
                 &quot;He knows all the right angles to shoot a precious moment!
                 Hard-working man, a professional artist who puts passion in his
                 work!&quot;
@@ -607,7 +642,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="contact-text50">
+                <span className="contact-text054">
                   Duis aute irure dolor in reprehenderit
                 </span>
               </div>
@@ -617,7 +652,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="contact-text51">
+                <span className="contact-text055">
                   Lorem ipsum dolor sit amet
                 </span>
               </div>
@@ -627,7 +662,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="contact-text52">
+                <span className="contact-text056">
                   Voluptate velit esse cillum dolore eu fugiat nulla
                 </span>
               </div>
@@ -637,7 +672,7 @@ new BlazeSlider(el, {
                     <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                   </svg>
                 </div>
-                <span className="contact-text53">
+                <span className="contact-text057">
                   Excepteur sint occaecat cupidatat non proident sunt in culpa
                 </span>
               </div>
@@ -645,8 +680,8 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-testimonial1">
             <div className="contact-content09">
-              <span className="contact-text54">Testimonial</span>
-              <p className="contact-text55">
+              <span className="contact-text058">Testimonial</span>
+              <p className="contact-text059">
                 &quot;A pleasant collaboration from all points of view! Positive
                 work attitude and creativity are the strong points! It has
                 everything that is technically necessary  for a quality
@@ -678,7 +713,7 @@ new BlazeSlider(el, {
           <div className="contact-header15">
             <h2 className="contact-heading09">
               <span>Outstanding </span>
-              <span className="contact-text57">visual content!</span>
+              <span className="contact-text061">visual content!</span>
               <span>
                 <span
                   dangerouslySetInnerHTML={{
@@ -689,7 +724,7 @@ new BlazeSlider(el, {
               <br></br>
             </h2>
           </div>
-          <button className="contact-button2 button">
+          <button className="contact-button3 button">
             <span>
               <span>Get started today</span>
               <br></br>
@@ -713,19 +748,19 @@ new BlazeSlider(el, {
         <div className="contact-table">
           <div className="contact-row">
             <div className="contact-headers">
-              <span className="contact-text65">Placeholder</span>
+              <span className="contact-text069">Placeholder</span>
             </div>
             <div className="contact-plans">
               <div className="contact-row01">
-                <span className="contact-text66">TOGHTR</span>
-                <span className="contact-text67">AGENCY</span>
-                <span className="contact-text68">FRELLANCE</span>
+                <span className="contact-text070">TOGHTR</span>
+                <span className="contact-text071">AGENCY</span>
+                <span className="contact-text072">FRELLANCE</span>
               </div>
             </div>
           </div>
           <div className="contact-row02">
             <div className="contact-headers1">
-              <span className="contact-text69">
+              <span className="contact-text073">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
@@ -745,7 +780,9 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-row04">
             <div className="contact-headers2">
-              <span className="contact-text70">Lorem ipsum dolor sit amet</span>
+              <span className="contact-text074">
+                Lorem ipsum dolor sit amet
+              </span>
             </div>
             <div className="contact-plans2">
               <div className="contact-row05">
@@ -763,14 +800,14 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-row06">
             <div className="contact-headers3">
-              <span className="contact-text71">
+              <span className="contact-text075">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
             <div className="contact-plans3">
               <div className="contact-row07">
                 <div className="value">
-                  <span className="contact-text72">Custom</span>
+                  <span className="contact-text076">Custom</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -783,17 +820,17 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-row08">
             <div className="contact-headers4">
-              <span className="contact-text73">
+              <span className="contact-text077">
                 Duis aute irure dolor in reprehenderit
               </span>
             </div>
             <div className="contact-plans4">
               <div className="contact-row09">
                 <div className="value">
-                  <span className="contact-text74">Unlimited</span>
+                  <span className="contact-text078">Unlimited</span>
                 </div>
                 <div className="value">
-                  <span className="contact-text75">Limited</span>
+                  <span className="contact-text079">Limited</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -803,7 +840,9 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-row10">
             <div className="contact-headers5">
-              <span className="contact-text76">Lorem ipsum dolor sit amet</span>
+              <span className="contact-text080">
+                Lorem ipsum dolor sit amet
+              </span>
             </div>
             <div className="contact-plans5">
               <div className="contact-row11">
@@ -814,14 +853,16 @@ new BlazeSlider(el, {
                   <Line></Line>
                 </div>
                 <div className="value">
-                  <span className="contact-text77">Limited</span>
+                  <span className="contact-text081">Limited</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="contact-row12">
             <div className="contact-headers6">
-              <span className="contact-text78">Lorem ipsum dolor sit amet</span>
+              <span className="contact-text082">
+                Lorem ipsum dolor sit amet
+              </span>
             </div>
             <div className="contact-plans6">
               <div className="contact-row13">
@@ -839,7 +880,9 @@ new BlazeSlider(el, {
           </div>
           <div className="contact-row14">
             <div className="contact-headers7">
-              <span className="contact-text79">Lorem ipsum dolor sit amet</span>
+              <span className="contact-text083">
+                Lorem ipsum dolor sit amet
+              </span>
             </div>
             <div className="contact-plans7">
               <div className="contact-row15">
@@ -847,7 +890,7 @@ new BlazeSlider(el, {
                   <Check></Check>
                 </div>
                 <div className="value">
-                  <span className="contact-text80">Limited</span>
+                  <span className="contact-text084">Limited</span>
                 </div>
                 <div className="value">
                   <Line></Line>
@@ -870,16 +913,16 @@ new BlazeSlider(el, {
             </div>
           </div>
           <p className="contact-caption14">
-            <span className="contact-text83">
+            <span className="contact-text087">
               We make videos for all sorts of businesses for all sorts of
               reasons, from sharing a successful customer story, to an authentic
               employee experience or a new product development. We have filmed
               for clients in their corporate offices, homes, factories, events
               and others.
             </span>
-            <br className="contact-text84"></br>
-            <br className="contact-text85"></br>
-            <span className="contact-text86">
+            <br className="contact-text088"></br>
+            <br className="contact-text089"></br>
+            <span className="contact-text090">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -1105,7 +1148,7 @@ new BlazeSlider(el, {
               <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
             </svg>
           </button>
-          <button className="button contact-button3">
+          <button className="button contact-button4">
             <span>
               <span>View all cases</span>
               <br></br>
@@ -1117,7 +1160,7 @@ new BlazeSlider(el, {
         <div className="contact-header23">
           <h2 className="contact-heading12">
             <span>Frequently asked </span>
-            <span className="contact-text91">questions</span>
+            <span className="contact-text095">questions</span>
             <span>
               <span
                 dangerouslySetInnerHTML={{
@@ -1218,14 +1261,14 @@ new BlazeSlider(el, {
         <div className="contact-content27">
           <div className="contact-main">
             <div className="contact-branding1">
-              <Link to="/" className="contact-navlink">
+              <Link to="/" className="contact-navlink01">
                 <img
                   alt="image"
                   src="https://i.imgur.com/h00gRM7.png"
                   className="contact-image12"
                 />
               </Link>
-              <span className="contact-text93">
+              <span className="contact-text097">
                 Available world-wide, at any time.
               </span>
             </div>
@@ -1233,17 +1276,17 @@ new BlazeSlider(el, {
               <div className="contact-column2">
                 <span className="contact-header30">Company</span>
                 <div className="contact-list">
-                  <Link to="/" className="contact-navlink01">
+                  <Link to="/" className="contact-navlink02">
                     About
                   </Link>
-                  <Link to="/" className="contact-navlink02">
+                  <Link to="/" className="contact-navlink03">
                     Services
                   </Link>
-                  <Link to="/" className="contact-navlink03">
+                  <Link to="/" className="contact-navlink04">
                     How
                   </Link>
-                  <Link to="/" className="contact-navlink04">
-                    <span className="contact-text94">Why</span>
+                  <Link to="/" className="contact-navlink05">
+                    <span className="contact-text098">Why</span>
                     <br></br>
                   </Link>
                 </div>
@@ -1251,25 +1294,25 @@ new BlazeSlider(el, {
               <div className="contact-column3">
                 <span className="contact-header31">Extern</span>
                 <div className="contact-list1">
-                  <Link to="/" className="contact-navlink05">
+                  <Link to="/" className="contact-navlink06">
                     News
                   </Link>
-                  <Link to="/" className="contact-navlink06">
+                  <Link to="/" className="contact-navlink07">
                     Articles
                   </Link>
-                  <Link to="/" className="contact-navlink07">
+                  <Link to="/" className="contact-navlink08">
                     Blog
                   </Link>
-                  <Link to="/" className="contact-navlink08">
+                  <Link to="/" className="contact-navlink09">
                     Privacy
                   </Link>
-                  <Link to="/" className="contact-navlink09">
+                  <Link to="/" className="contact-navlink10">
                     Terms
                   </Link>
-                  <Link to="/" className="contact-navlink10">
+                  <Link to="/" className="contact-navlink11">
                     Legal
                   </Link>
-                  <Link to="/" className="contact-navlink11">
+                  <Link to="/" className="contact-navlink12">
                     Press
                   </Link>
                 </div>
@@ -1277,19 +1320,19 @@ new BlazeSlider(el, {
               <div className="contact-column4">
                 <span className="contact-header32">Social</span>
                 <div className="contact-list2">
-                  <Link to="/" className="contact-navlink12">
+                  <Link to="/" className="contact-navlink13">
                     LinkedIn
                   </Link>
-                  <Link to="/" className="contact-navlink13">
+                  <Link to="/" className="contact-navlink14">
                     Twitter
                   </Link>
-                  <Link to="/" className="contact-navlink14">
+                  <Link to="/" className="contact-navlink15">
                     Instagram
                   </Link>
-                  <Link to="/" className="contact-navlink15">
+                  <Link to="/" className="contact-navlink16">
                     Facebook
                   </Link>
-                  <Link to="/" className="contact-navlink16">
+                  <Link to="/" className="contact-navlink17">
                     TikTok
                   </Link>
                 </div>
@@ -1297,7 +1340,7 @@ new BlazeSlider(el, {
             </div>
           </div>
           <div className="contact-bottom">
-            <span className="contact-text96">
+            <span className="contact-text100">
               © 2023 MOVIEW | Stefan Doncean - All rights reserved
             </span>
             <a
