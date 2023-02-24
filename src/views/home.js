@@ -599,7 +599,7 @@ new BlazeSlider(el, {
               <br className="home-text047"></br>
               <br className="home-text048"></br>
               <span className="home-text049">
-                *refund amount is noted on the contract.
+                *refund amount is decided on the contract.
               </span>
               <br className="home-text050"></br>
               <br className="home-text051"></br>

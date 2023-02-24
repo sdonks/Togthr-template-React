@@ -185,21 +185,21 @@ const Contact = (props) => {
           <form className="contact-form">
             <input
               type="text"
-              placeholder="Your Name"
               name="Name"
+              placeholder="Your Name"
               className="contact-textinput input"
             />
             <input
               type="text"
-              placeholder="Your Email"
               name="Email"
+              placeholder="Your Email"
               className="contact-textinput1 input"
             />
             <input
               type="text"
-              placeholder="Your Message"
               name="Message"
-              className="contact-textinput2 input"
+              placeholder="Your Message"
+              className="contact-textinput2 input textarea"
             />
             <button className="contact-button button">Send</button>
           </form>
