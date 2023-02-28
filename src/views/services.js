@@ -1149,7 +1149,7 @@ new BlazeSlider(el, {
           </button>
         </div>
       </section>
-      <section className="services-f-a-q">
+      <section className="services-faq">
         <div className="services-header23">
           <h2 className="services-heading13">
             <span>Frequently asked </span>

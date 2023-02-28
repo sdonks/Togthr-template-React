@@ -2344,7 +2344,7 @@
   width: 24px;
   height: 24px;
 }
-.work-examples-f-a-q {
+.work-examples-faq {
   gap: var(--dl-space-space-fiveunits);
   width: 100%;
   display: none;
@@ -3391,7 +3391,7 @@
   .work-examples-next2 {
     display: none;
   }
-  .work-examples-f-a-q {
+  .work-examples-faq {
     padding-bottom: var(--dl-space-space-fiveunits);
   }
   .work-examples-content24 {
@@ -4104,7 +4104,7 @@
     width: 14px;
     height: 14px;
   }
-  .work-examples-f-a-q {
+  .work-examples-faq {
     gap: var(--dl-space-space-threeunits);
     padding-top: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-oneandhalfunits);

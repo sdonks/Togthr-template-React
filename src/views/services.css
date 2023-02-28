@@ -2066,7 +2066,7 @@
   width: 24px;
   height: 24px;
 }
-.services-f-a-q {
+.services-faq {
   gap: var(--dl-space-space-fiveunits);
   width: 100%;
   display: none;
@@ -3014,7 +3014,7 @@
   .services-next1 {
     display: none;
   }
-  .services-f-a-q {
+  .services-faq {
     padding-bottom: var(--dl-space-space-fiveunits);
   }
   .services-content20 {
@@ -3642,7 +3642,7 @@
     width: 14px;
     height: 14px;
   }
-  .services-f-a-q {
+  .services-faq {
     gap: var(--dl-space-space-threeunits);
     padding-top: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-oneandhalfunits);

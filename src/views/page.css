@@ -2067,7 +2067,7 @@
   width: 24px;
   height: 24px;
 }
-.page-f-a-q {
+.page-faq {
   gap: var(--dl-space-space-fiveunits);
   width: 100%;
   display: none;
@@ -3052,7 +3052,7 @@
   .page-next1 {
     display: none;
   }
-  .page-f-a-q {
+  .page-faq {
     padding-bottom: var(--dl-space-space-fiveunits);
   }
   .page-content20 {
@@ -3677,7 +3677,7 @@
     width: 14px;
     height: 14px;
   }
-  .page-f-a-q {
+  .page-faq {
     gap: var(--dl-space-space-threeunits);
     padding-top: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-oneandhalfunits);
