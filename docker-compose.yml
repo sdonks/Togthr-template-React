@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  web:
+    environment:
+      - PORT=${PORT}
+      - KEY_PATH=${KEY_PATH}
+      - CERT_PATH=${CERT_PATH}
+    network_mode: "bridge"
+    build: .
+    ports:
+      - ${PORT}:${PORT}
