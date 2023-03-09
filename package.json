@@ -12,7 +12,6 @@
     "prop-types": "15.7.2"
   },
   "scripts": {
-    "serve": "serve -s build -p 443",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test --env=jsdom",
