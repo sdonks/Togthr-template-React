@@ -172,7 +172,7 @@ const Contact = (props) => {
           </div>
           <h1 className="contact-text005">
             <span>
-              Contact us by completeing this form.
+              This contact form is not working for now.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -180,7 +180,7 @@ const Contact = (props) => {
               />
             </span>
             <br></br>
-            <span>We&apos;ll answer as soon as possible.</span>
+            <span>You can reach us at contact@stefandoncean.com</span>
           </h1>
           <form className="contact-form">
             <input
