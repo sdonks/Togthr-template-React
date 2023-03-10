@@ -180,7 +180,7 @@ const Contact = (props) => {
               />
             </span>
             <br></br>
-            <span>You can reach us at contact@stefandoncean.com</span>
+            <span>You can reach us at donceanstefan.media@gmail.com</span>
           </h1>
           <form className="contact-form">
             <input
