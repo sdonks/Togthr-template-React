@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
 import Contact from './views/contact'
-import WorkExamples from './views/work-examples'
+import Portfolio from './views/portfolio'
 import Home from './views/home'
 import Services from './views/services'
 
@@ -13,7 +13,7 @@ const App = () => {
     <Router>
       <div>
         <Route component={Contact} exact path="/contact" />
-        <Route component={WorkExamples} exact path="/work-examples" />
+        <Route component={Portfolio} exact path="/portfolio" />
         <Route component={Home} exact path="/" />
         <Route component={Services} exact path="/services" />
       </div>

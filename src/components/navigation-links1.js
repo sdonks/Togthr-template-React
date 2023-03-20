@@ -11,7 +11,7 @@ const NavigationLinks1 = (props) => {
       <Link to="/" className="navigation-links1-navlink">
         {props.text}
       </Link>
-      <Link to="/work-examples" className="navigation-links1-navlink1">
+      <Link to="/portfolio" className="navigation-links1-navlink1">
         {props.text1}
       </Link>
       <Link to="/services" className="navigation-links1-navlink2">
