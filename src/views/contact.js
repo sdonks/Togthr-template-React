@@ -167,12 +167,20 @@ const Contact = (props) => {
           </div>
         </header>
         <div className="contact-hero-content">
+          <div className="contact-div">
+            <DangerousHTML
+              html={`<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/moview-productions?hide_gdpr_banner=1&background_color=1a1a1a&text_color=ffffff&primary_color=ee282b" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->`}
+            ></DangerousHTML>
+          </div>
           <div className="contact-header-container">
             <div className="contact-header01"></div>
           </div>
           <h1 className="contact-text005">
             <span>
-              This contact form is not working for now.
+              This contact form is not working right now.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',

@@ -247,6 +247,10 @@
   flex-direction: column;
   justify-content: center;
 }
+.contact-div {
+  width: 1400px;
+  height: 623px;
+}
 .contact-header-container {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
@@ -262,13 +266,14 @@
 }
 .contact-text005 {
   color: rgb(255, 255, 255);
+  display: none;
   align-self: center;
   text-align: center;
 }
 .contact-form {
   width: 50%;
   height: 525px;
-  display: flex;
+  display: none;
   align-self: center;
   align-items: flex-start;
   flex-direction: column;
