@@ -80,7 +80,7 @@ const Home = (props) => {
           id="top"
           loop
           muted
-          poster="https://i.imgur.com/fNaO2U2.jpg"
+          poster="https://i.imgur.com/qUcY6k6.jpeg"
           preload="auto"
           autoPlay
           playsInline
