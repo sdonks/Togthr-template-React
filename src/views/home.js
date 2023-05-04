@@ -277,7 +277,7 @@ const Home = (props) => {
           </p>
           <img
             alt="image"
-            src="https://i.imgur.com/Go7dtob.jpg"
+            src="https://i.imgur.com/qUcY6k6.jpeg"
             className="home-image05"
           />
           <div className="home-slide-titles">
