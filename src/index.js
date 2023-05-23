@@ -7,6 +7,7 @@ import Contact from './views/contact'
 import Portfolio from './views/portfolio'
 import Home from './views/home'
 import Services from './views/services'
+import HomeTesting from './views/home-testing'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route component={Portfolio} exact path="/portfolio" />
         <Route component={Home} exact path="/" />
         <Route component={Services} exact path="/services" />
+        <Route component={HomeTesting} exact path="/home-testing" />
       </div>
     </Router>
   )
