@@ -197,15 +197,8 @@ const Home = (props) => {
           <div className="home-header-container">
             <div className="home-header02">
               <h1 className="home-heading">
-                <span>
-                  Face-to-face with
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text006">imagination</span>
+                <span>Unleashing the power of </span>
+                <span className="home-text006">film.</span>
                 <br></br>
               </h1>
             </div>
