@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import NavigationLinks1 from '../components/navigation-links1'
@@ -105,7 +105,7 @@ const Contact = (props) => {
             <div className="contact-hamburger">
               <img
                 alt="image"
-                src="/playground_assets/hamburger.svg"
+                src="/hamburger.svg"
                 className="contact-icon10"
               />
             </div>
@@ -117,11 +117,7 @@ const Contact = (props) => {
               className="contact-nav2"
             >
               <div className="contact-container2">
-                <img
-                  alt="image"
-                  src="/playground_assets/logo.svg"
-                  className="contact-image02"
-                />
+                <img alt="image" src="/logo.svg" className="contact-image02" />
                 <div data-thq="thq-close-menu" className="contact-menu-close1">
                   <svg viewBox="0 0 1024 1024" className="contact-icon11">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
@@ -168,12 +164,12 @@ const Contact = (props) => {
         </header>
         <div className="contact-hero-content">
           <div className="contact-div">
-            <DangerousHTML
+            <Script
               html={`<!-- Calendly inline widget begin -->
 <div class="calendly-inline-widget" data-url="https://calendly.com/moview-productions?hide_gdpr_banner=1&background_color=1a1a1a&text_color=ffffff&primary_color=ee282b" style="min-width:320px;height:630px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->`}
-            ></DangerousHTML>
+            ></Script>
           </div>
           <div className="contact-header-container">
             <div className="contact-header01"></div>
@@ -294,7 +290,7 @@ const Contact = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="contact-image03"
                   />
                   <div className="contact-content01">
@@ -322,7 +318,7 @@ const Contact = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="contact-image04"
                   />
                   <div className="contact-content02">
@@ -350,7 +346,7 @@ const Contact = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="contact-image05"
                   />
                   <div className="contact-content03">
@@ -378,7 +374,7 @@ const Contact = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="contact-image06"
                   />
                   <div className="contact-content04">
@@ -426,7 +422,7 @@ const Contact = (props) => {
           </div>
         </div>
         <div>
-          <DangerousHTML
+          <Script
             html={`<script>
 const el = document.querySelector('.blaze-slider')
 
@@ -439,7 +435,7 @@ new BlazeSlider(el, {
   },
 })
 </script>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </section>
       <section className="contact-get-started">
@@ -1017,7 +1013,7 @@ new BlazeSlider(el, {
               <IconContainer rootClassName="icon-container-root-class-name11"></IconContainer>
             </div>
             <div>
-              <DangerousHTML
+              <Script
                 html={`<script>
  /*
   Accordion - Code Embed
@@ -1068,7 +1064,7 @@ new BlazeSlider(el, {
   });
 </script>
 `}
-              ></DangerousHTML>
+              ></Script>
             </div>
           </div>
         </div>
@@ -1356,17 +1352,13 @@ new BlazeSlider(el, {
               data-role="scroll-top"
               className="contact-link2 button"
             >
-              <img
-                alt="image"
-                src="/playground_assets/arrow.svg"
-                className="contact-image13"
-              />
+              <img alt="image" src="/arrow.svg" className="contact-image13" />
             </a>
           </div>
         </div>
       </div>
       <div>
-        <DangerousHTML
+        <Script
           html={`<script>
 document.addEventListener("DOMContentLoaded", function() {
   // get the element with the "scroll-top" data-role
@@ -1383,7 +1375,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 `}
-        ></DangerousHTML>
+        ></Script>
       </div>
     </div>
   )

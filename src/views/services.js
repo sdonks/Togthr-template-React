@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import NavigationLinks1 from '../components/navigation-links1'
@@ -104,7 +104,7 @@ const Services = (props) => {
             <div className="services-hamburger">
               <img
                 alt="image"
-                src="/playground_assets/hamburger.svg"
+                src="/hamburger.svg"
                 className="services-icon10"
               />
             </div>
@@ -116,11 +116,7 @@ const Services = (props) => {
               className="services-nav2"
             >
               <div className="services-container2">
-                <img
-                  alt="image"
-                  src="/playground_assets/logo.svg"
-                  className="services-image02"
-                />
+                <img alt="image" src="/logo.svg" className="services-image02" />
                 <div data-thq="thq-close-menu" className="services-menu-close1">
                   <svg viewBox="0 0 1024 1024" className="services-icon11">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
@@ -279,7 +275,7 @@ const Services = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="services-image03"
                   />
                   <div className="services-content01">
@@ -307,7 +303,7 @@ const Services = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="services-image04"
                   />
                   <div className="services-content02">
@@ -335,7 +331,7 @@ const Services = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="services-image05"
                   />
                   <div className="services-content03">
@@ -363,7 +359,7 @@ const Services = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="services-image06"
                   />
                   <div className="services-content04">
@@ -411,7 +407,7 @@ const Services = (props) => {
           </div>
         </div>
         <div>
-          <DangerousHTML
+          <Script
             html={`<script>
 const el = document.querySelector('.blaze-slider')
 
@@ -424,7 +420,7 @@ new BlazeSlider(el, {
   },
 })
 </script>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </section>
       <section className="services-get-started">
@@ -1002,7 +998,7 @@ new BlazeSlider(el, {
               <IconContainer rootClassName="icon-container-root-class-name19"></IconContainer>
             </div>
             <div>
-              <DangerousHTML
+              <Script
                 html={`<script>
  /*
   Accordion - Code Embed
@@ -1053,7 +1049,7 @@ new BlazeSlider(el, {
   });
 </script>
 `}
-              ></DangerousHTML>
+              ></Script>
             </div>
           </div>
         </div>
@@ -1341,17 +1337,13 @@ new BlazeSlider(el, {
               data-role="scroll-top"
               className="services-link2 button"
             >
-              <img
-                alt="image"
-                src="/playground_assets/arrow.svg"
-                className="services-image13"
-              />
+              <img alt="image" src="/arrow.svg" className="services-image13" />
             </a>
           </div>
         </div>
       </div>
       <div>
-        <DangerousHTML
+        <Script
           html={`<script>
 document.addEventListener("DOMContentLoaded", function() {
   // get the element with the "scroll-top" data-role
@@ -1368,7 +1360,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 `}
-        ></DangerousHTML>
+        ></Script>
       </div>
     </div>
   )

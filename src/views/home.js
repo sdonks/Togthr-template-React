@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import NavigationLinks1 from '../components/navigation-links1'
@@ -139,11 +139,7 @@ const Home = (props) => {
           />
           <div data-thq="thq-burger-menu" className="home-burger-menu2">
             <div className="home-hamburger">
-              <img
-                alt="image"
-                src="/playground_assets/hamburger.svg"
-                className="home-icon20"
-              />
+              <img alt="image" src="/hamburger.svg" className="home-icon20" />
             </div>
           </div>
           <div data-thq="thq-mobile-menu" className="home-mobile-menu2">
@@ -153,11 +149,7 @@ const Home = (props) => {
               className="home-nav4"
             >
               <div className="home-container3">
-                <img
-                  alt="image"
-                  src="/playground_assets/logo.svg"
-                  className="home-image04"
-                />
+                <img alt="image" src="/logo.svg" className="home-image04" />
                 <div data-thq="thq-close-menu" className="home-menu-close2">
                   <svg viewBox="0 0 1024 1024" className="home-icon21">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
@@ -255,7 +247,30 @@ const Home = (props) => {
             </span>
           </h2>
         </div>
-        <div className="home-selector">
+        <div className="home-container5">
+          <div className="home-container6">
+            <img
+              alt="image"
+              src="https://i.imgur.com/M81C0GJ.jpg"
+              className="home-image05"
+            />
+            <div className="home-selector">
+              <div className="home-slide-titles">
+                <div className="slide-title">
+                  <span>Metaverse</span>
+                </div>
+                <div className="slide-title slide-title-active">
+                  <span>Ecosystems</span>
+                </div>
+                <div className="slide-title">
+                  <span>Development</span>
+                </div>
+                <div className="slide-title">
+                  <span>Integration</span>
+                </div>
+              </div>
+            </div>
+          </div>
           <p className="home-caption02">
             <span>
               We’re the perfect partner for all your, “I need a video” project
@@ -267,27 +282,8 @@ const Home = (props) => {
               make, we can advise you based on your budget, your audience, and
               the ultimate goal of your video.
             </span>
-            <br className="home-text019"></br>
+            <br className="home-text023"></br>
           </p>
-          <img
-            alt="image"
-            src="https://i.imgur.com/qUcY6k6.jpeg"
-            className="home-image05"
-          />
-          <div className="home-slide-titles">
-            <div className="slide-title">
-              <span>Metaverse</span>
-            </div>
-            <div className="slide-title slide-title-active">
-              <span>Ecosystems</span>
-            </div>
-            <div className="slide-title">
-              <span>Development</span>
-            </div>
-            <div className="slide-title">
-              <span>Integration</span>
-            </div>
-          </div>
         </div>
       </section>
       <section className="home-statistics">
@@ -311,7 +307,7 @@ const Home = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="home-image06"
                   />
                   <div className="home-content01">
@@ -339,7 +335,7 @@ const Home = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="home-image07"
                   />
                   <div className="home-content02">
@@ -367,7 +363,7 @@ const Home = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="home-image08"
                   />
                   <div className="home-content03">
@@ -395,7 +391,7 @@ const Home = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="home-image09"
                   />
                   <div className="home-content04">
@@ -443,7 +439,7 @@ const Home = (props) => {
           </div>
         </div>
         <div>
-          <DangerousHTML
+          <Script
             html={`<script>
 const el = document.querySelector('.blaze-slider')
 
@@ -456,7 +452,7 @@ new BlazeSlider(el, {
   },
 })
 </script>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </section>
       <section className="home-get-started">
@@ -1023,7 +1019,7 @@ new BlazeSlider(el, {
               <IconContainer rootClassName="icon-container-root-class-name3"></IconContainer>
             </div>
             <div>
-              <DangerousHTML
+              <Script
                 html={`<script>
  /*
   Accordion - Code Embed
@@ -1074,7 +1070,7 @@ new BlazeSlider(el, {
   });
 </script>
 `}
-              ></DangerousHTML>
+              ></Script>
             </div>
           </div>
         </div>
@@ -1360,17 +1356,13 @@ new BlazeSlider(el, {
               data-role="scroll-top"
               className="home-link2 button"
             >
-              <img
-                alt="image"
-                src="/playground_assets/arrow.svg"
-                className="home-image16"
-              />
+              <img alt="image" src="/arrow.svg" className="home-image16" />
             </a>
           </div>
         </div>
       </div>
       <div>
-        <DangerousHTML
+        <Script
           html={`<script>
 document.addEventListener("DOMContentLoaded", function() {
   // get the element with the "scroll-top" data-role
@@ -1387,7 +1379,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 `}
-        ></DangerousHTML>
+        ></Script>
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import NavigationLinks1 from '../components/navigation-links1'
@@ -104,7 +104,7 @@ const Portfolio = (props) => {
             <div className="portfolio-hamburger">
               <img
                 alt="image"
-                src="/playground_assets/hamburger.svg"
+                src="/hamburger.svg"
                 className="portfolio-icon10"
               />
             </div>
@@ -118,7 +118,7 @@ const Portfolio = (props) => {
               <div className="portfolio-container2">
                 <img
                   alt="image"
-                  src="/playground_assets/logo.svg"
+                  src="/logo.svg"
                   className="portfolio-image02"
                 />
                 <div
@@ -222,7 +222,7 @@ const Portfolio = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="portfolio-image03"
                   />
                   <div className="portfolio-content">
@@ -250,7 +250,7 @@ const Portfolio = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="portfolio-image04"
                   />
                   <div className="portfolio-content01">
@@ -278,7 +278,7 @@ const Portfolio = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="portfolio-image05"
                   />
                   <div className="portfolio-content02">
@@ -306,7 +306,7 @@ const Portfolio = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="portfolio-image06"
                   />
                   <div className="portfolio-content03">
@@ -354,7 +354,7 @@ const Portfolio = (props) => {
           </div>
         </div>
         <div>
-          <DangerousHTML
+          <Script
             html={`<script>
 const el = document.querySelector('.blaze-slider')
 
@@ -367,7 +367,7 @@ new BlazeSlider(el, {
   },
 })
 </script>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </section>
       <section className="portfolio-slider1">
@@ -438,7 +438,7 @@ new BlazeSlider(el, {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="portfolio-image07"
                   />
                   <div className="portfolio-content05">
@@ -466,7 +466,7 @@ new BlazeSlider(el, {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="portfolio-image08"
                   />
                   <div className="portfolio-content06">
@@ -494,7 +494,7 @@ new BlazeSlider(el, {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="portfolio-image09"
                   />
                   <div className="portfolio-content07">
@@ -522,7 +522,7 @@ new BlazeSlider(el, {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/playground_assets/slider-ecosystems-400h.png"
+                    src="/slider-ecosystems-400h.png"
                     className="portfolio-image10"
                   />
                   <div className="portfolio-content08">
@@ -570,7 +570,7 @@ new BlazeSlider(el, {
           </div>
         </div>
         <div>
-          <DangerousHTML
+          <Script
             html={`<script>
 const el = document.querySelector('.blaze-slider')
 
@@ -583,7 +583,7 @@ new BlazeSlider(el, {
   },
 })
 </script>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </section>
       <section className="portfolio-get-started">
@@ -1161,7 +1161,7 @@ new BlazeSlider(el, {
               <IconContainer rootClassName="icon-container-root-class-name15"></IconContainer>
             </div>
             <div>
-              <DangerousHTML
+              <Script
                 html={`<script>
  /*
   Accordion - Code Embed
@@ -1212,7 +1212,7 @@ new BlazeSlider(el, {
   });
 </script>
 `}
-              ></DangerousHTML>
+              ></Script>
             </div>
           </div>
         </div>
@@ -1500,17 +1500,13 @@ new BlazeSlider(el, {
               data-role="scroll-top"
               className="portfolio-link2 button"
             >
-              <img
-                alt="image"
-                src="/playground_assets/arrow.svg"
-                className="portfolio-image17"
-              />
+              <img alt="image" src="/arrow.svg" className="portfolio-image17" />
             </a>
           </div>
         </div>
       </div>
       <div>
-        <DangerousHTML
+        <Script
           html={`<script>
 document.addEventListener("DOMContentLoaded", function() {
   // get the element with the "scroll-top" data-role
@@ -1527,7 +1523,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 `}
-        ></DangerousHTML>
+        ></Script>
       </div>
     </div>
   )
