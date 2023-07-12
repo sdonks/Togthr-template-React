@@ -84,6 +84,7 @@ const Home = (props) => {
           preload="auto"
           autoPlay
           playsInline
+          src="https://youtu.be/Kyp2JDxVh28"
           className="home-video"
         ></video>
         <header id="header" data-role="Header" className="home-header01">
