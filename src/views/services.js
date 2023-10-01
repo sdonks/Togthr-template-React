@@ -48,7 +48,7 @@ const Services = (props) => {
         </div>
         <div data-role="MobileMenu" className="services-mobile-menu">
           <div className="services-nav1">
-            <div className="services-container1">
+            <div className="services-container01">
               <img
                 alt="image"
                 src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
@@ -115,7 +115,7 @@ const Services = (props) => {
               data-role="Nav"
               className="services-nav2"
             >
-              <div className="services-container2">
+              <div className="services-container02">
                 <img alt="image" src="/logo.svg" className="services-image02" />
                 <div data-thq="thq-close-menu" className="services-menu-close1">
                   <svg viewBox="0 0 1024 1024" className="services-icon11">
@@ -134,7 +134,7 @@ const Services = (props) => {
                 <span className="services-text003">Team</span>
                 <span className="services-text004">Blog</span>
               </nav>
-              <div className="services-container3">
+              <div className="services-container03">
                 <button className="services-login button">Login</button>
                 <button className="button">Register</button>
               </div>
@@ -407,8 +407,9 @@ const Services = (props) => {
           </div>
         </div>
         <div>
-          <Script
-            html={`<script>
+          <div className="services-container05">
+            <Script
+              html={`<script>
 const el = document.querySelector('.blaze-slider')
 
 new BlazeSlider(el, {
@@ -420,7 +421,8 @@ new BlazeSlider(el, {
   },
 })
 </script>`}
-          ></Script>
+            ></Script>
+          </div>
         </div>
       </section>
       <section className="services-get-started">
@@ -998,8 +1000,9 @@ new BlazeSlider(el, {
               <IconContainer rootClassName="icon-container-root-class-name19"></IconContainer>
             </div>
             <div>
-              <Script
-                html={`<script>
+              <div className="services-container07">
+                <Script
+                  html={`<script>
  /*
   Accordion - Code Embed
   */
@@ -1049,7 +1052,8 @@ new BlazeSlider(el, {
   });
 </script>
 `}
-              ></Script>
+                ></Script>
+              </div>
             </div>
           </div>
         </div>
@@ -1343,8 +1347,9 @@ new BlazeSlider(el, {
         </div>
       </div>
       <div>
-        <Script
-          html={`<script>
+        <div className="services-container09">
+          <Script
+            html={`<script>
 document.addEventListener("DOMContentLoaded", function() {
   // get the element with the "scroll-top" data-role
   const scrollTopBtn = document.querySelector('[data-role="scroll-top"]');
@@ -1360,7 +1365,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 `}
-        ></Script>
+          ></Script>
+        </div>
       </div>
     </div>
   )

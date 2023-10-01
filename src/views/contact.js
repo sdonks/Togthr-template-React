@@ -50,7 +50,7 @@ const Contact = (props) => {
         </div>
         <div data-role="MobileMenu" className="contact-mobile-menu">
           <div className="contact-nav1">
-            <div className="contact-container1">
+            <div className="contact-container01">
               <img
                 alt="image"
                 src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
@@ -116,7 +116,7 @@ const Contact = (props) => {
               data-role="Nav"
               className="contact-nav2"
             >
-              <div className="contact-container2">
+              <div className="contact-container02">
                 <img alt="image" src="/logo.svg" className="contact-image02" />
                 <div data-thq="thq-close-menu" className="contact-menu-close1">
                   <svg viewBox="0 0 1024 1024" className="contact-icon11">
@@ -135,7 +135,7 @@ const Contact = (props) => {
                 <span className="contact-text003">Team</span>
                 <span className="contact-text004">Blog</span>
               </nav>
-              <div className="contact-container3">
+              <div className="contact-container03">
                 <button className="contact-login button">Login</button>
                 <button className="button">Register</button>
               </div>
@@ -163,13 +163,15 @@ const Contact = (props) => {
           </div>
         </header>
         <div className="contact-hero-content">
-          <div className="contact-div">
-            <Script
-              html={`<!-- Calendly inline widget begin -->
+          <div className="contact-container04">
+            <div className="contact-container05">
+              <Script
+                html={`<!-- Calendly inline widget begin -->
 <div class="calendly-inline-widget" data-url="https://calendly.com/moview-productions?hide_gdpr_banner=1&background_color=1a1a1a&text_color=ffffff&primary_color=ee282b" style="min-width:320px;height:630px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->`}
-            ></Script>
+              ></Script>
+            </div>
           </div>
           <div className="contact-header-container">
             <div className="contact-header01"></div>
@@ -422,8 +424,9 @@ const Contact = (props) => {
           </div>
         </div>
         <div>
-          <Script
-            html={`<script>
+          <div className="contact-container07">
+            <Script
+              html={`<script>
 const el = document.querySelector('.blaze-slider')
 
 new BlazeSlider(el, {
@@ -435,7 +438,8 @@ new BlazeSlider(el, {
   },
 })
 </script>`}
-          ></Script>
+            ></Script>
+          </div>
         </div>
       </section>
       <section className="contact-get-started">
@@ -1013,8 +1017,9 @@ new BlazeSlider(el, {
               <IconContainer rootClassName="icon-container-root-class-name11"></IconContainer>
             </div>
             <div>
-              <Script
-                html={`<script>
+              <div className="contact-container09">
+                <Script
+                  html={`<script>
  /*
   Accordion - Code Embed
   */
@@ -1064,7 +1069,8 @@ new BlazeSlider(el, {
   });
 </script>
 `}
-              ></Script>
+                ></Script>
+              </div>
             </div>
           </div>
         </div>
@@ -1358,8 +1364,9 @@ new BlazeSlider(el, {
         </div>
       </div>
       <div>
-        <Script
-          html={`<script>
+        <div className="contact-container11">
+          <Script
+            html={`<script>
 document.addEventListener("DOMContentLoaded", function() {
   // get the element with the "scroll-top" data-role
   const scrollTopBtn = document.querySelector('[data-role="scroll-top"]');
@@ -1375,7 +1382,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 `}
-        ></Script>
+          ></Script>
+        </div>
       </div>
     </div>
   )

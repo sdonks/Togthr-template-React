@@ -48,7 +48,7 @@ const HomeTesting = (props) => {
         </div>
         <div data-role="MobileMenu" className="home-testing-mobile-menu">
           <div className="home-testing-nav1">
-            <div className="home-testing-container1">
+            <div className="home-testing-container01">
               <img
                 alt="image"
                 src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
@@ -90,11 +90,12 @@ const HomeTesting = (props) => {
       <section className="home-testing-hero">
         <video
           id="top"
+          src="https://youtu.be/Kyp2JDxVh28"
           loop
           muted
-          poster="https://i.imgur.com/qUcY6k6.jpeg"
           preload="auto"
           autoPlay
+          controls
           playsInline
           className="home-testing-video"
         ></video>
@@ -121,7 +122,7 @@ const HomeTesting = (props) => {
           </div>
           <div data-role="MobileMenu" className="home-testing-mobile-menu1">
             <div className="home-testing-nav3">
-              <div className="home-testing-container2">
+              <div className="home-testing-container02">
                 <img
                   alt="image"
                   src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
@@ -180,7 +181,7 @@ const HomeTesting = (props) => {
               data-role="Nav"
               className="home-testing-nav4"
             >
-              <div className="home-testing-container3">
+              <div className="home-testing-container03">
                 <img
                   alt="image"
                   src="/logo.svg"
@@ -206,7 +207,7 @@ const HomeTesting = (props) => {
                 <span className="home-testing-text003">Team</span>
                 <span className="home-testing-text004">Blog</span>
               </nav>
-              <div className="home-testing-container4">
+              <div className="home-testing-container04">
                 <button className="home-testing-login1 button">Login</button>
                 <button className="button">Register</button>
               </div>
@@ -493,8 +494,9 @@ const HomeTesting = (props) => {
           </div>
         </div>
         <div>
-          <Script
-            html={`<script>
+          <div className="home-testing-container06">
+            <Script
+              html={`<script>
 const el = document.querySelector('.blaze-slider')
 
 new BlazeSlider(el, {
@@ -506,7 +508,8 @@ new BlazeSlider(el, {
   },
 })
 </script>`}
-          ></Script>
+            ></Script>
+          </div>
         </div>
       </section>
       <section className="home-testing-get-started">
@@ -1083,8 +1086,9 @@ new BlazeSlider(el, {
               <IconContainer rootClassName="icon-container-root-class-name27"></IconContainer>
             </div>
             <div>
-              <Script
-                html={`<script>
+              <div className="home-testing-container08">
+                <Script
+                  html={`<script>
  /*
   Accordion - Code Embed
   */
@@ -1134,7 +1138,8 @@ new BlazeSlider(el, {
   });
 </script>
 `}
-              ></Script>
+                ></Script>
+              </div>
             </div>
           </div>
         </div>
@@ -1432,8 +1437,9 @@ new BlazeSlider(el, {
         </div>
       </div>
       <div>
-        <Script
-          html={`<script>
+        <div className="home-testing-container10">
+          <Script
+            html={`<script>
 document.addEventListener("DOMContentLoaded", function() {
   // get the element with the "scroll-top" data-role
   const scrollTopBtn = document.querySelector('[data-role="scroll-top"]');
@@ -1449,7 +1455,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 `}
-        ></Script>
+          ></Script>
+        </div>
       </div>
     </div>
   )

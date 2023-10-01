@@ -48,7 +48,7 @@ const Portfolio = (props) => {
         </div>
         <div data-role="MobileMenu" className="portfolio-mobile-menu">
           <div className="portfolio-nav1">
-            <div className="portfolio-container1">
+            <div className="portfolio-container01">
               <img
                 alt="image"
                 src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
@@ -115,7 +115,7 @@ const Portfolio = (props) => {
               data-role="Nav"
               className="portfolio-nav2"
             >
-              <div className="portfolio-container2">
+              <div className="portfolio-container02">
                 <img
                   alt="image"
                   src="/logo.svg"
@@ -141,7 +141,7 @@ const Portfolio = (props) => {
                 <span className="portfolio-text003">Team</span>
                 <span className="portfolio-text004">Blog</span>
               </nav>
-              <div className="portfolio-container3">
+              <div className="portfolio-container03">
                 <button className="portfolio-login button">Login</button>
                 <button className="button">Register</button>
               </div>
@@ -354,8 +354,9 @@ const Portfolio = (props) => {
           </div>
         </div>
         <div>
-          <Script
-            html={`<script>
+          <div className="portfolio-container05">
+            <Script
+              html={`<script>
 const el = document.querySelector('.blaze-slider')
 
 new BlazeSlider(el, {
@@ -367,7 +368,8 @@ new BlazeSlider(el, {
   },
 })
 </script>`}
-          ></Script>
+            ></Script>
+          </div>
         </div>
       </section>
       <section className="portfolio-slider1">
@@ -570,8 +572,9 @@ new BlazeSlider(el, {
           </div>
         </div>
         <div>
-          <Script
-            html={`<script>
+          <div className="portfolio-container07">
+            <Script
+              html={`<script>
 const el = document.querySelector('.blaze-slider')
 
 new BlazeSlider(el, {
@@ -583,7 +586,8 @@ new BlazeSlider(el, {
   },
 })
 </script>`}
-          ></Script>
+            ></Script>
+          </div>
         </div>
       </section>
       <section className="portfolio-get-started">
@@ -1161,8 +1165,9 @@ new BlazeSlider(el, {
               <IconContainer rootClassName="icon-container-root-class-name15"></IconContainer>
             </div>
             <div>
-              <Script
-                html={`<script>
+              <div className="portfolio-container09">
+                <Script
+                  html={`<script>
  /*
   Accordion - Code Embed
   */
@@ -1212,7 +1217,8 @@ new BlazeSlider(el, {
   });
 </script>
 `}
-              ></Script>
+                ></Script>
+              </div>
             </div>
           </div>
         </div>
@@ -1506,8 +1512,9 @@ new BlazeSlider(el, {
         </div>
       </div>
       <div>
-        <Script
-          html={`<script>
+        <div className="portfolio-container11">
+          <Script
+            html={`<script>
 document.addEventListener("DOMContentLoaded", function() {
   // get the element with the "scroll-top" data-role
   const scrollTopBtn = document.querySelector('[data-role="scroll-top"]');
@@ -1523,7 +1530,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 `}
-        ></Script>
+          ></Script>
+        </div>
       </div>
     </div>
   )

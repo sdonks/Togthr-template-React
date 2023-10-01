@@ -48,7 +48,7 @@ const Home = (props) => {
         </div>
         <div data-role="MobileMenu" className="home-mobile-menu">
           <div className="home-nav1">
-            <div className="home-container1">
+            <div className="home-container01">
               <img
                 alt="image"
                 src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
@@ -78,13 +78,13 @@ const Home = (props) => {
       <section className="home-hero">
         <video
           id="top"
+          src="https://youtu.be/Kyp2JDxVh28"
           loop
           muted
           poster="https://i.imgur.com/qUcY6k6.jpeg"
           preload="auto"
           autoPlay
           playsInline
-          src="https://youtu.be/Kyp2JDxVh28"
           className="home-video"
         ></video>
         <header id="header" data-role="Header" className="home-header01">
@@ -106,7 +106,7 @@ const Home = (props) => {
           </div>
           <div data-role="MobileMenu" className="home-mobile-menu1">
             <div className="home-nav3">
-              <div className="home-container2">
+              <div className="home-container02">
                 <img
                   alt="image"
                   src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
@@ -149,7 +149,7 @@ const Home = (props) => {
               data-role="Nav"
               className="home-nav4"
             >
-              <div className="home-container3">
+              <div className="home-container03">
                 <img alt="image" src="/logo.svg" className="home-image04" />
                 <div data-thq="thq-close-menu" className="home-menu-close2">
                   <svg viewBox="0 0 1024 1024" className="home-icon21">
@@ -168,7 +168,7 @@ const Home = (props) => {
                 <span className="home-text003">Team</span>
                 <span className="home-text004">Blog</span>
               </nav>
-              <div className="home-container4">
+              <div className="home-container04">
                 <button className="home-login1 button">Login</button>
                 <button className="button">Register</button>
               </div>
@@ -248,8 +248,8 @@ const Home = (props) => {
             </span>
           </h2>
         </div>
-        <div className="home-container5">
-          <div className="home-container6">
+        <div className="home-container05">
+          <div className="home-container06">
             <img
               alt="image"
               src="https://i.imgur.com/M81C0GJ.jpg"
@@ -440,8 +440,9 @@ const Home = (props) => {
           </div>
         </div>
         <div>
-          <Script
-            html={`<script>
+          <div className="home-container08">
+            <Script
+              html={`<script>
 const el = document.querySelector('.blaze-slider')
 
 new BlazeSlider(el, {
@@ -453,16 +454,16 @@ new BlazeSlider(el, {
   },
 })
 </script>`}
-          ></Script>
+            ></Script>
+          </div>
         </div>
       </section>
       <section className="home-get-started">
         <div className="home-header-container1">
           <div className="home-header11">
             <h2 className="home-heading06">
-              Moview is the home to our Video Production company where we create
-              stunning visual content to ensure brands stand out and get
-              noticed.
+              Welcome to the Video Production company where we create stunning
+              visual content to ensure brands stand out and get noticed.
             </h2>
             <p className="home-caption11">
               Our focus on creative development and full-service video
@@ -644,7 +645,7 @@ new BlazeSlider(el, {
           <div className="home-square1"></div>
           <img
             alt="image"
-            src="https://i.imgur.com/p0gMEgQ.jpg"
+            src="https://i.imgur.com/4BrF08T.jpg"
             className="home-image12"
           />
         </div>
@@ -1020,8 +1021,9 @@ new BlazeSlider(el, {
               <IconContainer rootClassName="icon-container-root-class-name3"></IconContainer>
             </div>
             <div>
-              <Script
-                html={`<script>
+              <div className="home-container10">
+                <Script
+                  html={`<script>
  /*
   Accordion - Code Embed
   */
@@ -1071,7 +1073,8 @@ new BlazeSlider(el, {
   });
 </script>
 `}
-              ></Script>
+                ></Script>
+              </div>
             </div>
           </div>
         </div>
@@ -1350,7 +1353,7 @@ new BlazeSlider(el, {
           </div>
           <div className="home-bottom">
             <span className="home-text107">
-              © 2023 MOVIEW | Stefan Doncean - All rights reserved
+              © 2023 | Stefan Doncean - All rights reserved
             </span>
             <a
               href="#header"
@@ -1363,8 +1366,9 @@ new BlazeSlider(el, {
         </div>
       </div>
       <div>
-        <Script
-          html={`<script>
+        <div className="home-container12">
+          <Script
+            html={`<script>
 document.addEventListener("DOMContentLoaded", function() {
   // get the element with the "scroll-top" data-role
   const scrollTopBtn = document.querySelector('[data-role="scroll-top"]');
@@ -1380,7 +1384,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 `}
-        ></Script>
+          ></Script>
+        </div>
       </div>
     </div>
   )
