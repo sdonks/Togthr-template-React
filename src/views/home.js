@@ -29,7 +29,7 @@ const Home = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c9633093-04cb-4556-8e46-92b7b60210b3/9bb2f2ab-731f-46a4-b829-5ff2c4bc55bc?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c9633093-04cb-4556-8e46-92b7b60210b3/9bb2f2ab-731f-46a4-b829-5ff2c4bc55bc?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <header data-role="Header" className="home-header">
@@ -76,8 +76,14 @@ const Home = (props) => {
         </div>
       </header>
       <section className="home-hero">
-        <video
+        <img
+          src="https://i.imgur.com/qUcY6k6.jpeg"
+          alt="image"
           id="top"
+          className="home-image02"
+        />
+        <video
+          id="top1"
           src="https://youtu.be/Kyp2JDxVh28"
           loop
           muted
@@ -92,7 +98,7 @@ const Home = (props) => {
             id="top logo"
             alt="logo"
             src="https://i.imgur.com/h00gRM7.png"
-            className="home-image02"
+            className="home-image03"
           />
           <div className="home-nav2"></div>
           <div className="home-btn-group">
@@ -110,7 +116,7 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                  className="home-image03"
+                  className="home-image04"
                 />
                 <div data-role="CloseMobileMenu" className="home-menu-close1">
                   <svg viewBox="0 0 1024 1024" className="home-icon12">
@@ -150,7 +156,7 @@ const Home = (props) => {
               className="home-nav4"
             >
               <div className="home-container03">
-                <img alt="image" src="/logo.svg" className="home-image04" />
+                <img alt="image" src="/logo.svg" className="home-image05" />
                 <div data-thq="thq-close-menu" className="home-menu-close2">
                   <svg viewBox="0 0 1024 1024" className="home-icon21">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
@@ -253,7 +259,7 @@ const Home = (props) => {
             <img
               alt="image"
               src="https://i.imgur.com/M81C0GJ.jpg"
-              className="home-image05"
+              className="home-image06"
             />
             <div className="home-selector">
               <div className="home-slide-titles">
@@ -309,7 +315,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/slider-ecosystems-400h.png"
-                    className="home-image06"
+                    className="home-image07"
                   />
                   <div className="home-content01">
                     <div className="home-header07">
@@ -337,7 +343,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/slider-ecosystems-400h.png"
-                    className="home-image07"
+                    className="home-image08"
                   />
                   <div className="home-content02">
                     <div className="home-header08">
@@ -365,7 +371,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/slider-ecosystems-400h.png"
-                    className="home-image08"
+                    className="home-image09"
                   />
                   <div className="home-content03">
                     <div className="home-header09">
@@ -393,7 +399,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/slider-ecosystems-400h.png"
-                    className="home-image09"
+                    className="home-image10"
                   />
                   <div className="home-content04">
                     <div className="home-header10">
@@ -490,7 +496,7 @@ new BlazeSlider(el, {
         <img
           alt="image"
           src="https://i.imgur.com/S0nMdGY.jpg"
-          className="home-image10"
+          className="home-image11"
         />
       </section>
       <h2 className="home-heading07">
@@ -636,7 +642,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="https://i.imgur.com/ubsnns9.jpg"
-            className="home-image11"
+            className="home-image12"
           />
         </div>
       </section>
@@ -646,7 +652,7 @@ new BlazeSlider(el, {
           <img
             alt="image"
             src="https://i.imgur.com/4BrF08T.jpg"
-            className="home-image12"
+            className="home-image13"
           />
         </div>
         <div className="home-content08">
@@ -950,11 +956,11 @@ new BlazeSlider(el, {
           </p>
         </div>
         <div className="home-content11">
-          <div className="home-image13">
+          <div className="home-image14">
             <img
               alt="image"
               src="https://i.imgur.com/hjx4j7N.jpg"
-              className="home-image14"
+              className="home-image15"
             />
           </div>
           <div className="home-accordion">
@@ -1277,7 +1283,7 @@ new BlazeSlider(el, {
                 <img
                   alt="image"
                   src="https://i.imgur.com/h00gRM7.png"
-                  className="home-image15"
+                  className="home-image16"
                 />
               </Link>
               <span className="home-text104">
@@ -1360,7 +1366,7 @@ new BlazeSlider(el, {
               data-role="scroll-top"
               className="home-link2 button"
             >
-              <img alt="image" src="/arrow.svg" className="home-image16" />
+              <img alt="image" src="/arrow.svg" className="home-image17" />
             </a>
           </div>
         </div>
