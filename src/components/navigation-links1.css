@@ -11,7 +11,6 @@
 }
 .navigation-links1-navlink1 {
   color: #ffffff;
-  display: none;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
@@ -57,6 +56,9 @@
 
 
 
+.navigation-links1-root-class-name31 {
+  display: none;
+}
 @media(max-width: 767px) {
   .navigation-links1-nav {
     align-items: flex-start;

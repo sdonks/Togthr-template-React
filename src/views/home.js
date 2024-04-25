@@ -40,6 +40,7 @@ const Home = (props) => {
         />
         <div className="home-nav">
           <NavigationLinks1 rootClassName="rootClassName14"></NavigationLinks1>
+          <NavigationLinks1 rootClassName="rootClassName31"></NavigationLinks1>
         </div>
         <div data-role="BurgerMenu" className="home-burger-menu">
           <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -77,9 +78,9 @@ const Home = (props) => {
       </header>
       <section className="home-hero">
         <img
-          src="https://i.imgur.com/qUcY6k6.jpeg"
-          alt="image"
           id="top"
+          alt="image"
+          src="https://i.imgur.com/qUcY6k6.jpeg"
           className="home-image02"
         />
         <video

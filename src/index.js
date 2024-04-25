@@ -8,8 +8,9 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
+import Portfolio2 from './views/portfolio-2'
 import Contact from './views/contact'
-import Portfolio from './views/portfolio'
+import Projects from './views/projects'
 import Home from './views/home'
 import Services from './views/services'
 import HomeTesting from './views/home-testing'
@@ -19,8 +20,9 @@ const App = () => {
   return (
     <Router>
       <Switch>
+        <Route component={Portfolio2} exact path="/portfolio-2" />
         <Route component={Contact} exact path="/contact" />
-        <Route component={Portfolio} exact path="/portfolio" />
+        <Route component={Projects} exact path="/projects" />
         <Route component={Home} exact path="/" />
         <Route component={Services} exact path="/services" />
         <Route component={HomeTesting} exact path="/home-testing" />
